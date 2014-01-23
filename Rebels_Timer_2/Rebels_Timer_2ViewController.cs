@@ -29,7 +29,7 @@ namespace Rebels_Timer_2
 		public static AVAudioPlayer filePlay2;
 
 
-
+		// TEST ADD COMMENTS
 
 		//CODE VARS
 		public string A = "A";
