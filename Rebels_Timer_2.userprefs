@@ -1,18 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhoneRetina.7.0" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.Deirdre's iPad" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Rebels_Timer_2/Rebels_Timer_2ViewController.cs">
     <Files>
-      <File FileName="Rebels_Timer_2/Rebels_Timer_2ViewController.cs" Line="22" Column="134" />
+      <File FileName="Rebels_Timer_2/Rebels_Timer_2ViewController.cs" Line="31" Column="16" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="Rebels_Timer_2" expanded="True">
-            <Node name="INCORRECTSOUND.mp3" selected="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
