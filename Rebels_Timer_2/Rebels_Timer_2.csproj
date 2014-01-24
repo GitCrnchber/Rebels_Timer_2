@@ -93,7 +93,7 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Default-568h%402x.png" />
-    <BundleResource Include="Timer_top.jpeg" />
+    <BundleResource Include="Timer_top.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />

@@ -71,19 +71,19 @@ namespace Rebels_Timer_2
 			compareRandom = null;
 			filePlay.Stop();
 			userInput = "";
-			didWin = false;
 		}
 
 		partial void pressedA (MonoTouch.UIKit.UIButton sender)
 		{
+			//If its already running, it does only input
 			if(isRunning == true){
 				userBuildCode(A);
-			} else if(isRunning == false){
+			} else if(isRunning == false){ //if isn't already running ini timer, music, and answer
 				isRunning = true;
 
 				iniPossibleAnswers();
-				playMusic(fourMinuteCounter);
-				startTimer();
+				playMusic(fourMinuteCounter); 
+				startTimer(); //run start timer function
 				didWin = false;
 			}
 
@@ -91,7 +91,7 @@ namespace Rebels_Timer_2
 
 		public void startTimer()
 		{
-			Task makeTimerGo = new Task(() => runTimer());
+			Task makeTimerGo = new Task(() => runTimer()); //Create seperate thread from game logic
 			makeTimerGo.Start ();
 		}
 
@@ -148,13 +148,11 @@ namespace Rebels_Timer_2
 
 		//GAME METHODs
 
-
-
 		public void userBuildCode(string buttonInput)
 		{
 			userInput += buttonInput;
 
-			if (userInput.Length == 3) 
+			if (userInput.Length == 3) //If user has input three buttons, check answer
 			{
 				foreach (string element in vAnswers) 
 				{
