@@ -13,10 +13,21 @@ namespace Rebels_Timer_2
 	public partial class Rebels_Timer_2ViewController : UIViewController
 	{
 		//SOUND FILES
-		public string fourMinuteCounter = "4MCount.mp3";
-		public string winSound = "Win.mp3";
-		public string incorrectSound = ("INCORRECTSOUND.mp3");
-		public string loseSound = "LOSE.mp3";
+		public string winSound = "Sounds/WinTag.mp3";
+		public string loseSound = "Sounds/LostTag.mp3";
+		public string incorrectSound = ("Sounds/incorrect.mp3");
+		public string correctSound = ("Sounds/correct.mp3");
+		public string tapSound = "Sounds/tap.aif";
+		public string startUpSound = "Sounds/startup.mp3";
+
+		//SOUNDS/TIME ARRAYs
+		public string[] counterMusic = new string[4] {"Sounds/7MCount.mp3", "Sounds/6MCount.mp3", "Sounds/5MCount.mp3", "Sounds/4MCount.mp3"};
+		public int[] timerArray = new int[4] {420000, 360000, 300000, 240000};
+
+		//INCREMENTER
+		public int correctInc = 0;  
+
+
 
 		//ANSWER ARRAYS
 		public string[] pAnswers = new string[24] {"ABC", "ABD", "ACB", "ACD", "ADB", "ADC", "BAC", "BAD", "BCA", "BCD", "BDA", "BDC", "CAB", "CAD", "CBA", "CBD", "CDA",
@@ -27,6 +38,7 @@ namespace Rebels_Timer_2
 		//PLAYER VARs
 		public static AVAudioPlayer filePlay;
 		public static AVAudioPlayer filePlay2;
+		public static AVAudioPlayer touchSound;
 
 		// ADDING ADDITION PYLONS
 		// TEST ADD COMMENTS
@@ -37,10 +49,11 @@ namespace Rebels_Timer_2
 		public string C = "C";
 		public string D = "D";
 		public string userInput = "";
-		public bool didWin = false;
+
 
 		//BOOL LOGICAL VARs
 		bool isRunning = false;
+		public bool didWin = false;
 
 		public Rebels_Timer_2ViewController () : base ("Rebels_Timer_2ViewController", null)
 		{
@@ -58,7 +71,7 @@ namespace Rebels_Timer_2
 		public override void ViewDidLoad ()
 		{
 			base.ViewDidLoad ();
-
+			playMusic (startUpSound);
 			// Perform any additional setup after loading the view, typically from a nib.
 		}
 
@@ -67,6 +80,7 @@ namespace Rebels_Timer_2
 
 		partial void pressedRESET (MonoTouch.UIKit.UIButton sender)
 		{
+			inputSound();
 			isRunning = false;
 			compareRandom = null;
 			filePlay.Stop();
@@ -76,30 +90,57 @@ namespace Rebels_Timer_2
 		partial void pressedA (MonoTouch.UIKit.UIButton sender)
 		{
 			//If its already running, it does only input
+			inputSound();
 			if(isRunning == true){
 				userBuildCode(A);
 			} else if(isRunning == false){ //if isn't already running ini timer, music, and answer
 				isRunning = true;
 
+				correctInc = 0;
 				iniPossibleAnswers();
-				playMusic(fourMinuteCounter); 
-				startTimer(); //run start timer function
+				playMusic(counterMusic[correctInc]); 
+				startTimer(timerArray[correctInc]); //run start timer function
 				didWin = false;
 			}
 
 		}
 
-		public void startTimer()
+		partial void pressedB (MonoTouch.UIKit.UIButton sender)
 		{
-			Task makeTimerGo = new Task(() => runTimer()); //Create seperate thread from game logic
+			if(isRunning == true){
+				inputSound();
+				userBuildCode(B);
+			}
+		}
+
+		partial void pressedC (MonoTouch.UIKit.UIButton sender)
+		{
+			if(isRunning == true){
+				inputSound();
+				userBuildCode(C);
+			}
+		}
+
+		partial void pressedD (MonoTouch.UIKit.UIButton sender)
+		{
+			if(isRunning == true){
+				inputSound();
+				userBuildCode(D);
+			}
+		}
+
+		//GAME METHODs
+
+		public void startTimer(int time)
+		{
+			Task makeTimerGo = new Task(() => runTimer(time)); //Create seperate thread from game logic
 			makeTimerGo.Start ();
 		}
 
 
-		public void runTimer()
+		public void runTimer(int time)
 		{
-			Random randTime = new Random();
-			int timeAllowed = randTime.Next(30,120);
+			int timeAllowed = time;
 
 			Stopwatch SW = new Stopwatch();
 			SW.Restart ();
@@ -123,53 +164,39 @@ namespace Rebels_Timer_2
 
 		}
 
-
-
-		partial void pressedB (MonoTouch.UIKit.UIButton sender)
-		{
-			if(isRunning == true){
-				userBuildCode(B);
-			}
-		}
-
-		partial void pressedC (MonoTouch.UIKit.UIButton sender)
-		{
-			if(isRunning == true){
-				userBuildCode(C);
-			}
-		}
-
-		partial void pressedD (MonoTouch.UIKit.UIButton sender)
-		{
-			if(isRunning == true){
-				userBuildCode(D);
-			}
-		}
-
-		//GAME METHODs
-
 		public void userBuildCode(string buttonInput)
 		{
 			userInput += buttonInput;
 
 			if (userInput.Length == 3) //If user has input three buttons, check answer
 			{
+				int i = 0;
 				foreach (string element in vAnswers) 
 				{
 					if (element == userInput) {
 						filePlay.Stop();
 						System.Threading.Thread.Sleep (1);
-
+						vAnswers [i] = "";
 						userInput = "";
-						didWin = true;
-						playMusic (winSound);
-						isRunning = false;
+						playMusic (correctSound);
+						correctInc++;
+						if (correctInc == 4) {
+							System.Threading.Thread.Sleep (1000);
+							playMusic (winSound);
+							didWin = true;
+							isRunning = false;
+						} else {
+							System.Threading.Thread.Sleep (1000);
+							playMusic(counterMusic[correctInc]); 
+							startTimer(timerArray[correctInc]);
+						}
 						return;
 					}
+					i++;
 				}
 				filePlay.Pause ();
 				System.Threading.Thread.Sleep (200);
-				filePlay2 = AVAudioPlayer.FromUrl(NSUrl.FromFilename("INCORRECTSOUND.mp3"));
+				filePlay2 = AVAudioPlayer.FromUrl(NSUrl.FromFilename(incorrectSound));
 				filePlay2.Play ();
 				System.Threading.Thread.Sleep (1300);
 
@@ -226,6 +253,11 @@ namespace Rebels_Timer_2
 
 			imDone = true;
 			return imDone;
+		}
+
+		public void inputSound(){
+			touchSound = AVAudioPlayer.FromUrl(NSUrl.FromFilename(tapSound));
+			touchSound.Play ();
 		}
 
 	}

@@ -112,15 +112,20 @@
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <Content Include="4MCount.mp3">
+    <Content Include="Sounds\4MCount.mp3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="LOSE.mp3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Win.mp3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="INCORRECTSOUND.mp3" />
+    <Content Include="Sounds\tap.aif" />
+    <Content Include="Sounds\incorrect.mp3" />
+    <Content Include="Sounds\LoseTag.mp3" />
+    <Content Include="Sounds\startup.mp3" />
+    <Content Include="Sounds\WinTag.mp3" />
+    <Content Include="Sounds\correct.mp3" />
+    <Content Include="Sounds\5MCount.mp3" />
+    <Content Include="Sounds\6MCount.mp3" />
+    <Content Include="Sounds\7MCount.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Sounds\" />
   </ItemGroup>
 </Project>
