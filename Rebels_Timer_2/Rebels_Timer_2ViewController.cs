@@ -14,7 +14,7 @@ namespace Rebels_Timer_2
 	{
 		//SOUND FILES
 		public string winSound = "Sounds/WinTag.mp3";
-		public string loseSound = "Sounds/LostTag.mp3";
+		public string loseSound = "Sounds/LoseTag.mp3";
 		public string incorrectSound = ("Sounds/incorrect.mp3");
 		public string correctSound = ("Sounds/correct.mp3");
 		public string tapSound = "Sounds/tap.aif";
@@ -22,7 +22,7 @@ namespace Rebels_Timer_2
 
 		//SOUNDS/TIME ARRAYs
 		public string[] counterMusic = new string[4] {"Sounds/7MCount.mp3", "Sounds/6MCount.mp3", "Sounds/5MCount.mp3", "Sounds/4MCount.mp3"};
-		public int[] timerArray = new int[4] {420000, 360000, 300000, 240000};
+		public int[] timerArray = new int[4] {418000, 360000, 300000, 240000};
 
 		//INCREMENTER
 		public int correctInc = 0;  
@@ -32,7 +32,7 @@ namespace Rebels_Timer_2
 		//ANSWER ARRAYS
 		public string[] pAnswers = new string[24] {"ABC", "ABD", "ACB", "ACD", "ADB", "ADC", "BAC", "BAD", "BCA", "BCD", "BDA", "BDC", "CAB", "CAD", "CBA", "CBD", "CDA",
 			"CDB", "DAB", "DAC", "DBA", "DBC", "DCA", "DCB"};
-		public string[] vAnswers= new string[8];
+		public string[] vAnswers= new string[4];
 		public int[] compareRandom = new int[8];
 
 		//PLAYER VARs
@@ -146,7 +146,7 @@ namespace Rebels_Timer_2
 			SW.Restart ();
 
 			int h = 0;
-			while (SW.ElapsedMilliseconds <= timeAllowed * 1000) 
+			while (SW.ElapsedMilliseconds <= timeAllowed) 
 			{h++;}
 
 			filePlay.Stop ();
@@ -226,14 +226,14 @@ namespace Rebels_Timer_2
 					int[] array = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 };
 					Shuffle(array);
 
-					int[] vAnswersIndexes = new int[8];
+				int[] vAnswersIndexes = new int[4];
 
-					for (int i = 0; i < 8; i++)
+				for (int i = 0; i < 4; i++)
 						{
 						vAnswersIndexes[i] = array[i];
 						}
 
-					for (int x = 0; x < 8; x++) 
+				for (int x = 0; x < 4; x++) 
 						{
 						int p = vAnswersIndexes[x];
 						vAnswers[x] = pAnswers[p];
