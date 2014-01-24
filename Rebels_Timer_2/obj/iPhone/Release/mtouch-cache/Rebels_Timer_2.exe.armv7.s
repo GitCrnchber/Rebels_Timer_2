@@ -329,32 +329,32 @@ bl _p_7
 .loc 3 25 0
 
 	.byte 44,0,138,229
-.loc 3 33 0
+.loc 3 35 0
 
 	.byte 0,0,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 136
 	.byte 0,0,159,231,48,0,138,229
-.loc 3 34 0
+.loc 3 36 0
 
 	.byte 0,0,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 140
 	.byte 0,0,159,231,52,0,138,229
-.loc 3 35 0
+.loc 3 37 0
 
 	.byte 0,0,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 144
 	.byte 0,0,159,231,56,0,138,229
-.loc 3 36 0
+.loc 3 38 0
 
 	.byte 0,0,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 148
 	.byte 0,0,159,231,60,0,138,229
-.loc 3 37 0
+.loc 3 39 0
 
 	.byte 0,0,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 152
 	.byte 0,0,159,231,0,0,144,229,64,0,138,229
-.loc 3 42 0
+.loc 3 45 0
 
 	.byte 0,16,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 156
@@ -368,7 +368,7 @@ Lme_4:
 	.align 2
 	.no_dead_strip _Rebels_Timer_2_Rebels_Timer_2ViewController_DidReceiveMemoryWarning
 _Rebels_Timer_2_Rebels_Timer_2ViewController_DidReceiveMemoryWarning:
-.loc 3 49 0
+.loc 3 52 0
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229
 bl _p_9
@@ -380,7 +380,7 @@ Lme_5:
 	.align 2
 	.no_dead_strip _Rebels_Timer_2_Rebels_Timer_2ViewController_ViewDidLoad
 _Rebels_Timer_2_Rebels_Timer_2ViewController_ViewDidLoad:
-.loc 3 57 0
+.loc 3 60 0
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229
 bl _p_10
@@ -392,188 +392,197 @@ Lme_6:
 	.align 2
 	.no_dead_strip _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedRESET_MonoTouch_UIKit_UIButton
 _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedRESET_MonoTouch_UIKit_UIButton:
-.loc 3 67 0
+.loc 3 70 0
 
-	.byte 128,64,45,233,13,112,160,225,0,5,45,233,8,208,77,226,0,160,160,225,0,16,141,229,0,0,160,227,68,0,202,229
+	.byte 128,64,45,233,13,112,160,225,0,5,45,233,8,208,77,226,0,160,160,225,0,16,141,229,0,0,160,227,69,0,202,229
 	.byte 0,0,160,227
-.loc 3 68 0
+.loc 3 71 0
 
 	.byte 44,0,138,229
-.loc 3 69 0
+.loc 3 72 0
 
 	.byte 0,0,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 160
 	.byte 0,0,159,231,0,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225,72,240,145,229
-.loc 3 70 0
+.loc 3 73 0
 
 	.byte 0,0,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 152
-	.byte 0,0,159,231,0,0,144,229,64,0,138,229,8,208,141,226,0,5,189,232,128,128,189,232
+	.byte 0,0,159,231,0,0,144,229,64,0,138,229,0,0,160,227
+.loc 3 74 0
+
+	.byte 68,0,202,229,8,208,141,226,0,5,189,232,128,128,189,232
 
 Lme_7:
 .text
 	.align 2
 	.no_dead_strip _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedA_MonoTouch_UIKit_UIButton
 _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedA_MonoTouch_UIKit_UIButton:
-.loc 3 75 0
+.loc 3 79 0
 
-	.byte 128,64,45,233,13,112,160,225,0,5,45,233,8,208,77,226,0,160,160,225,0,16,141,229,68,0,218,229,0,0,80,227
+	.byte 128,64,45,233,13,112,160,225,0,5,45,233,8,208,77,226,0,160,160,225,0,16,141,229,69,0,218,229,0,0,80,227
 	.byte 3,0,0,10
-.loc 3 76 0
+.loc 3 80 0
 
 	.byte 48,16,154,229,10,0,160,225
 bl _p_11
 
-	.byte 10,0,0,234
-.loc 3 77 0
+	.byte 12,0,0,234
+.loc 3 81 0
 
-	.byte 68,0,218,229,0,0,80,227,7,0,0,26,1,0,160,227
-.loc 3 78 0
+	.byte 69,0,218,229,0,0,80,227,9,0,0,26,1,0,160,227
+.loc 3 82 0
 
-	.byte 68,0,202,229
-.loc 3 80 0
+	.byte 69,0,202,229
+.loc 3 84 0
 
 	.byte 10,0,160,225
 bl _p_12
-.loc 3 81 0
+.loc 3 85 0
 
 	.byte 20,0,154,229
 bl _p_13
-.loc 3 83 0
+.loc 3 86 0
 
 	.byte 10,0,160,225
 bl _p_14
 
-	.byte 8,208,141,226,0,5,189,232,128,128,189,232
+	.byte 0,0,160,227
+.loc 3 87 0
+
+	.byte 68,0,202,229,8,208,141,226,0,5,189,232,128,128,189,232
 
 Lme_8:
 .text
 	.align 2
-	.no_dead_strip _Rebels_Timer_2_Rebels_Timer_2ViewController_runTimer
-_Rebels_Timer_2_Rebels_Timer_2ViewController_runTimer:
-.loc 3 91 0
+	.no_dead_strip _Rebels_Timer_2_Rebels_Timer_2ViewController_startTimer
+_Rebels_Timer_2_Rebels_Timer_2ViewController_startTimer:
+.loc 3 94 0
 
-	.byte 128,64,45,233,13,112,160,225,112,13,45,233,24,208,77,226,8,0,141,229,0,0,159,229,0,0,0,234
+	.byte 128,64,45,233,13,112,160,225,0,1,45,233,20,208,77,226,0,0,141,229,0,0,157,229,0,0,80,227,32,0,0,11
+	.byte 0,0,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 164
 	.byte 0,0,159,231
 bl _p_15
 
-	.byte 16,0,141,229
-bl _p_16
-
-	.byte 16,48,157,229
-.loc 3 92 0
-
-	.byte 3,0,160,225,30,16,160,227,120,32,160,227,0,48,147,229,15,224,160,225,52,240,147,229,0,96,160,225
-.loc 3 94 0
-
-	.byte 0,0,159,229,0,0,0,234
+	.byte 0,16,157,229,16,16,128,229,0,16,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 168
+	.byte 1,16,159,231,20,16,128,229,0,16,159,229,0,0,0,234
+	.long _mono_aot_Rebels_Timer_2_got - . + 172
+	.byte 1,16,159,231,12,16,128,229,12,0,141,229,0,0,159,229,0,0,0,234
+	.long _mono_aot_Rebels_Timer_2_got - . + 176
 	.byte 0,0,159,231
 bl _p_15
 
-	.byte 0,16,160,225,1,80,160,225
+	.byte 12,16,157,229,8,0,141,229
+bl _p_16
+
+	.byte 8,16,157,229,1,0,160,225,0,224,209,229
+bl _p_17
 .loc 3 95 0
 
+	.byte 20,208,141,226,0,1,189,232,128,128,189,232,14,16,160,225,0,0,159,229
+bl _p_18
+
+	.byte 76,1,0,2
+
+Lme_9:
+.text
+	.align 2
+	.no_dead_strip _Rebels_Timer_2_Rebels_Timer_2ViewController_runTimer
+_Rebels_Timer_2_Rebels_Timer_2ViewController_runTimer:
+.loc 3 101 0
+
+	.byte 128,64,45,233,13,112,160,225,112,13,45,233,24,208,77,226,8,0,141,229,0,0,159,229,0,0,0,234
+	.long _mono_aot_Rebels_Timer_2_got - . + 180
+	.byte 0,0,159,231
+bl _p_19
+
+	.byte 16,0,141,229
+bl _p_20
+
+	.byte 16,48,157,229
+.loc 3 102 0
+
+	.byte 3,0,160,225,30,16,160,227,120,32,160,227,0,48,147,229,15,224,160,225,52,240,147,229,0,96,160,225
+.loc 3 104 0
+
+	.byte 0,0,159,229,0,0,0,234
+	.long _mono_aot_Rebels_Timer_2_got - . + 184
+	.byte 0,0,159,231
+bl _p_19
+
+	.byte 0,16,160,225,1,80,160,225
+.loc 3 105 0
+
 	.byte 1,0,160,225,0,224,209,229
-bl _p_17
-.loc 3 96 0
+bl _p_21
+.loc 3 107 0
 
 	.byte 0,64,160,227
-.loc 3 98 0
+.loc 3 108 0
 
 	.byte 0,0,0,234
-.loc 3 99 0
+.loc 3 109 0
 
 	.byte 1,64,132,226
-.loc 3 98 0
+.loc 3 108 0
 
 	.byte 5,0,160,225,0,224,213,229
-bl _p_18
+bl _p_22
 
 	.byte 4,16,141,229,0,0,141,229,250,15,160,227,144,6,11,224,0,0,224,227,0,0,91,225,0,0,160,227,1,0,160,195
 	.byte 1,160,64,226,4,0,157,229,10,0,80,225,239,255,255,186,4,0,157,229,10,0,80,225,2,0,0,26,0,0,157,229
 	.byte 11,0,80,225,233,255,255,154
-.loc 3 101 0
+.loc 3 111 0
 
 	.byte 0,0,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 160
 	.byte 0,0,159,231,0,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225,72,240,145,229
-.loc 3 102 0
+.loc 3 112 0
 
 	.byte 250,15,160,227
-bl _p_19
+bl _p_23
 
 	.byte 8,0,157,229
-.loc 3 103 0
+.loc 3 114 0
+
+	.byte 68,0,208,229,0,0,80,227,2,0,0,26,8,0,157,229
+.loc 3 115 0
 
 	.byte 32,0,144,229
 bl _p_13
 
 	.byte 8,0,157,229,0,16,160,227
-.loc 3 105 0
+.loc 3 118 0
 
-	.byte 68,16,192,229,0,16,160,227
-.loc 3 106 0
+	.byte 69,16,192,229,0,16,160,227
+.loc 3 119 0
 
 	.byte 44,16,128,229
-.loc 3 107 0
+.loc 3 120 0
 
 	.byte 0,16,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 152
 	.byte 1,16,159,231,0,16,145,229,64,16,128,229
-.loc 3 109 0
+.loc 3 121 0
 
 	.byte 5,0,160,225,0,224,213,229
-bl _p_20
-.loc 3 110 0
+bl _p_24
+.loc 3 122 0
 
 	.byte 24,208,141,226,112,13,189,232,128,128,189,232
-
-Lme_9:
-.text
-	.align 2
-	.no_dead_strip _Rebels_Timer_2_Rebels_Timer_2ViewController_startTimer
-_Rebels_Timer_2_Rebels_Timer_2ViewController_startTimer:
-.loc 3 118 0
-
-	.byte 128,64,45,233,13,112,160,225,0,1,45,233,20,208,77,226,0,0,141,229,0,0,157,229,0,0,80,227,32,0,0,11
-	.byte 0,0,159,229,0,0,0,234
-	.long _mono_aot_Rebels_Timer_2_got - . + 172
-	.byte 0,0,159,231
-bl _p_21
-
-	.byte 0,16,157,229,16,16,128,229,0,16,159,229,0,0,0,234
-	.long _mono_aot_Rebels_Timer_2_got - . + 176
-	.byte 1,16,159,231,20,16,128,229,0,16,159,229,0,0,0,234
-	.long _mono_aot_Rebels_Timer_2_got - . + 180
-	.byte 1,16,159,231,12,16,128,229,12,0,141,229,0,0,159,229,0,0,0,234
-	.long _mono_aot_Rebels_Timer_2_got - . + 184
-	.byte 0,0,159,231
-bl _p_21
-
-	.byte 12,16,157,229,8,0,141,229
-bl _p_22
-
-	.byte 8,16,157,229,1,0,160,225,0,224,209,229
-bl _p_23
-.loc 3 120 0
-
-	.byte 20,208,141,226,0,1,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_24
-
-	.byte 76,1,0,2
 
 Lme_a:
 .text
 	.align 2
 	.no_dead_strip _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedB_MonoTouch_UIKit_UIButton
 _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedB_MonoTouch_UIKit_UIButton:
-.loc 3 125 0
+.loc 3 130 0
 
-	.byte 128,64,45,233,13,112,160,225,0,5,45,233,8,208,77,226,0,160,160,225,0,16,141,229,68,0,218,229,0,0,80,227
+	.byte 128,64,45,233,13,112,160,225,0,5,45,233,8,208,77,226,0,160,160,225,0,16,141,229,69,0,218,229,0,0,80,227
 	.byte 2,0,0,10
-.loc 3 126 0
+.loc 3 131 0
 
 	.byte 52,16,154,229,10,0,160,225
 bl _p_11
@@ -585,11 +594,11 @@ Lme_b:
 	.align 2
 	.no_dead_strip _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedC_MonoTouch_UIKit_UIButton
 _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedC_MonoTouch_UIKit_UIButton:
-.loc 3 132 0
+.loc 3 137 0
 
-	.byte 128,64,45,233,13,112,160,225,0,5,45,233,8,208,77,226,0,160,160,225,0,16,141,229,68,0,218,229,0,0,80,227
+	.byte 128,64,45,233,13,112,160,225,0,5,45,233,8,208,77,226,0,160,160,225,0,16,141,229,69,0,218,229,0,0,80,227
 	.byte 2,0,0,10
-.loc 3 133 0
+.loc 3 138 0
 
 	.byte 56,16,154,229,10,0,160,225
 bl _p_11
@@ -601,11 +610,11 @@ Lme_c:
 	.align 2
 	.no_dead_strip _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedD_MonoTouch_UIKit_UIButton
 _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedD_MonoTouch_UIKit_UIButton:
-.loc 3 139 0
+.loc 3 144 0
 
-	.byte 128,64,45,233,13,112,160,225,0,5,45,233,8,208,77,226,0,160,160,225,0,16,141,229,68,0,218,229,0,0,80,227
+	.byte 128,64,45,233,13,112,160,225,0,5,45,233,8,208,77,226,0,160,160,225,0,16,141,229,69,0,218,229,0,0,80,227
 	.byte 2,0,0,10
-.loc 3 140 0
+.loc 3 145 0
 
 	.byte 60,16,154,229,10,0,160,225
 bl _p_11
@@ -617,59 +626,67 @@ Lme_d:
 	.align 2
 	.no_dead_strip _Rebels_Timer_2_Rebels_Timer_2ViewController_userBuildCode_string
 _Rebels_Timer_2_Rebels_Timer_2ViewController_userBuildCode_string:
-.loc 3 148 0
+.loc 3 155 0
 
 	.byte 128,64,45,233,13,112,160,225,112,9,45,233,12,208,77,226,0,96,160,225,0,16,141,229,64,0,150,229,0,16,157,229
 bl _p_25
 
 	.byte 64,0,134,229,8,0,144,229
-.loc 3 150 0
+.loc 3 157 0
 
-	.byte 3,0,80,227,88,0,0,26
-.loc 3 152 0
+	.byte 3,0,80,227,92,0,0,26
+.loc 3 159 0
 
-	.byte 40,64,150,229,0,176,160,227,33,0,0,234,12,0,148,229,11,0,80,225,85,0,0,155,11,1,160,225,0,0,132,224
+	.byte 40,64,150,229,0,176,160,227,37,0,0,234,12,0,148,229,11,0,80,225,89,0,0,155,11,1,160,225,0,0,132,224
 	.byte 16,0,128,226,0,80,144,229
-.loc 3 154 0
+.loc 3 161 0
 
 	.byte 5,0,160,225,64,16,150,229
 bl _p_26
 
-	.byte 255,0,0,226,0,0,80,227,19,0,0,10
-.loc 3 155 0
+	.byte 255,0,0,226,0,0,80,227,23,0,0,10
+.loc 3 162 0
 
 	.byte 0,0,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 160
 	.byte 0,0,159,231,0,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225,72,240,145,229
-.loc 3 156 0
+.loc 3 163 0
 
 	.byte 1,0,160,227
-bl _p_19
-.loc 3 158 0
+bl _p_23
+.loc 3 165 0
 
 	.byte 0,0,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 152
-	.byte 0,0,159,231,0,0,144,229,64,0,134,229
-.loc 3 160 0
+	.byte 0,0,159,231,0,0,144,229,64,0,134,229,1,0,160,227
+.loc 3 166 0
+
+	.byte 68,0,198,229
+.loc 3 167 0
 
 	.byte 24,0,150,229
 bl _p_13
-.loc 3 162 0
+
+	.byte 0,0,160,227
+.loc 3 168 0
+
+	.byte 69,0,198,229
+.loc 3 169 0
 
 	.byte 52,0,0,234
-.loc 3 152 0
+.loc 3 159 0
 
-	.byte 1,176,139,226,12,0,148,229,0,0,91,225,218,255,255,186
-.loc 3 165 0
+	.byte 1,176,139,226,12,0,148,229,0,0,91,225,214,255,255,186
+.loc 3 172 0
 
 	.byte 0,0,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 160
 	.byte 0,0,159,231,0,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225,76,240,145,229
-.loc 3 166 0
+.loc 3 173 0
 
 	.byte 200,0,160,227
-bl _p_19
-.loc 3 167 0
+bl _p_23
+.loc 3 174 0
 
 	.byte 0,0,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 24
@@ -680,26 +697,26 @@ bl _p_28
 	.byte 0,16,160,225,0,0,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 188
 	.byte 0,0,159,231,0,16,128,229
-.loc 3 168 0
+.loc 3 175 0
 
 	.byte 0,0,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 188
 	.byte 0,0,159,231,0,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225,80,240,145,229
-.loc 3 169 0
+.loc 3 176 0
 
 	.byte 20,5,0,227
-bl _p_19
-.loc 3 171 0
+bl _p_23
+.loc 3 178 0
 
 	.byte 0,0,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 160
 	.byte 0,0,159,231,0,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225,80,240,145,229
-.loc 3 172 0
+.loc 3 179 0
 
 	.byte 0,0,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 152
 	.byte 0,0,159,231,0,0,144,229,64,0,134,229,12,208,141,226,112,9,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_18
 
 	.byte 143,1,0,2
 
@@ -708,31 +725,31 @@ Lme_e:
 	.align 2
 	.no_dead_strip _Rebels_Timer_2_Rebels_Timer_2ViewController_Shuffle_T_T__
 _Rebels_Timer_2_Rebels_Timer_2ViewController_Shuffle_T_T__:
-.loc 3 179 0
+.loc 3 186 0
 
 	.byte 128,64,45,233,13,112,160,225,112,13,45,233,8,208,77,226,0,128,141,229,0,160,160,225,0,0,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 192
 	.byte 0,0,159,231,0,64,144,229,12,176,154,229
-.loc 3 180 0
+.loc 3 187 0
 
 	.byte 32,0,0,234
-.loc 3 183 0
+.loc 3 190 0
 
 	.byte 4,0,160,225,11,16,160,225,0,32,148,229,15,224,160,225,48,240,146,229,0,96,160,225
-.loc 3 185 0
+.loc 3 192 0
 
 	.byte 12,0,154,229,6,0,80,225,28,0,0,155,6,1,160,225,0,0,138,224,16,0,128,226,0,80,144,229
-.loc 3 186 0
+.loc 3 193 0
 
 	.byte 1,0,75,226,12,16,154,229,0,0,81,225,20,0,0,155,0,1,160,225,0,0,138,224,16,0,128,226,0,32,144,229
 	.byte 10,0,160,225,6,16,160,225,0,48,154,229,15,224,160,225,52,240,147,229
-.loc 3 187 0
+.loc 3 194 0
 
 	.byte 1,16,75,226,10,0,160,225,5,32,160,225,0,48,154,229,15,224,160,225,52,240,147,229
-.loc 3 180 0
+.loc 3 187 0
 
 	.byte 1,176,75,226,1,0,91,227,220,255,255,202,8,208,141,226,112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_18
 
 	.byte 143,1,0,2
 
@@ -741,7 +758,7 @@ Lme_f:
 	.align 2
 	.no_dead_strip _Rebels_Timer_2_Rebels_Timer_2ViewController_iniPossibleAnswers
 _Rebels_Timer_2_Rebels_Timer_2ViewController_iniPossibleAnswers:
-.loc 3 194 0
+.loc 3 201 0
 
 	.byte 128,64,45,233,13,112,160,225,112,13,45,233,16,208,77,226,0,0,141,229,0,0,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 132
@@ -754,7 +771,7 @@ bl _p_7
 bl _p_29
 
 	.byte 8,0,157,229,0,64,160,225
-.loc 3 195 0
+.loc 3 202 0
 
 	.byte 0,128,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 200
@@ -767,33 +784,33 @@ bl _p_30
 bl _p_7
 
 	.byte 0,176,160,225
-.loc 3 199 0
+.loc 3 206 0
 
 	.byte 0,160,160,227,14,0,0,234
-.loc 3 201 0
+.loc 3 208 0
 
 	.byte 12,0,148,229,10,0,80,225,45,0,0,155,10,1,160,225,0,0,132,224,16,0,128,226,0,16,144,229,12,0,155,229
 	.byte 10,0,80,225,38,0,0,155,10,1,160,225,0,0,139,224,16,0,128,226,0,16,128,229
-.loc 3 199 0
-
-	.byte 1,160,138,226,8,0,90,227,238,255,255,186
-.loc 3 204 0
-
-	.byte 0,96,160,227,22,0,0,234
 .loc 3 206 0
 
+	.byte 1,160,138,226,8,0,90,227,238,255,255,186
+.loc 3 211 0
+
+	.byte 0,96,160,227,22,0,0,234
+.loc 3 213 0
+
 	.byte 12,0,155,229,6,0,80,225,26,0,0,155,6,1,160,225,0,0,139,224,16,0,128,226,0,80,144,229,0,0,157,229
-.loc 3 207 0
+.loc 3 214 0
 
 	.byte 40,48,144,229,36,0,144,229,12,16,144,229,5,0,81,225,16,0,0,155,5,17,160,225,1,0,128,224,16,0,128,226
 	.byte 0,32,144,229,3,0,160,225,6,16,160,225,0,48,147,229,15,224,160,225,52,240,147,229
-.loc 3 204 0
+.loc 3 211 0
 
 	.byte 1,96,134,226,8,0,86,227,230,255,255,186,0,0,157,229
-.loc 3 210 0
+.loc 3 217 0
 
 	.byte 40,0,144,229,16,208,141,226,112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_18
 
 	.byte 143,1,0,2
 
@@ -802,7 +819,7 @@ Lme_10:
 	.align 2
 	.no_dead_strip _Rebels_Timer_2_Rebels_Timer_2ViewController_playMusic_string
 _Rebels_Timer_2_Rebels_Timer_2ViewController_playMusic_string:
-.loc 3 218 0
+.loc 3 225 0
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229
 bl _p_27
@@ -811,12 +828,12 @@ bl _p_28
 	.byte 0,16,160,225,0,0,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 160
 	.byte 0,0,159,231,0,16,128,229
-.loc 3 219 0
+.loc 3 226 0
 
 	.byte 0,0,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 160
 	.byte 0,0,159,231,0,16,144,229,1,0,160,225,0,16,145,229,15,224,160,225,80,240,145,229
-.loc 3 223 0
+.loc 3 230 0
 
 	.byte 1,0,160,227,12,208,141,226,0,1,189,232,128,128,189,232
 
@@ -833,15 +850,15 @@ Lme_12:
 	.align 2
 	.no_dead_strip _Rebels_Timer_2_Rebels_Timer_2ViewController__cctor
 _Rebels_Timer_2_Rebels_Timer_2ViewController__cctor:
-.loc 3 176 0
+.loc 3 183 0
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,159,229,0,0,0,234
-	.long _mono_aot_Rebels_Timer_2_got - . + 164
+	.long _mono_aot_Rebels_Timer_2_got - . + 180
 	.byte 0,0,159,231
-bl _p_15
+bl _p_19
 
 	.byte 0,0,141,229
-bl _p_16
+bl _p_20
 
 	.byte 0,16,157,229,0,0,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 192
@@ -852,7 +869,7 @@ Lme_13:
 	.align 2
 	.no_dead_strip _Rebels_Timer_2_Rebels_Timer_2ViewController__startTimerm__0
 _Rebels_Timer_2_Rebels_Timer_2ViewController__startTimerm__0:
-.loc 3 118 0
+.loc 3 94 0
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,0,0,157,229
 bl _p_31
@@ -864,7 +881,7 @@ Lme_14:
 	.align 2
 	.no_dead_strip _Rebels_Timer_2_Rebels_Timer_2ViewController_Shuffle___0___0__
 _Rebels_Timer_2_Rebels_Timer_2ViewController_Shuffle___0___0__:
-.loc 3 179 0
+.loc 3 186 0
 
 	.byte 128,64,45,233,13,112,160,225,112,13,45,233,16,208,77,226,13,176,160,225,8,128,139,229,0,160,160,225,8,0,155,229
 bl _p_32
@@ -873,31 +890,31 @@ bl _p_32
 	.byte 8,16,150,229,12,32,150,229,50,255,47,225,0,0,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 192
 	.byte 0,0,159,231,0,0,144,229,0,0,139,229,12,0,154,229,4,0,139,229
-.loc 3 180 0
+.loc 3 187 0
 
 	.byte 61,0,0,234,0,0,155,229,4,16,155,229,0,32,155,229
-.loc 3 183 0
+.loc 3 190 0
 
 	.byte 0,32,146,229,15,224,160,225,48,240,146,229,0,64,160,225
-.loc 3 185 0
+.loc 3 192 0
 
 	.byte 12,0,154,229,4,0,80,225,57,0,0,155,4,0,150,229,148,0,0,224,0,0,138,224,16,16,128,226,20,0,150,229
 	.byte 0,0,133,224,8,32,150,229,16,48,150,229,51,255,47,225,4,0,155,229
-.loc 3 186 0
+.loc 3 193 0
 
 	.byte 1,0,64,226,12,16,154,229,0,0,81,225,43,0,0,155,4,16,150,229,145,0,0,224,0,0,138,224,16,16,128,226
 	.byte 24,0,150,229,0,0,133,224,8,32,150,229,16,48,150,229,51,255,47,225,12,0,154,229,4,0,80,225,31,0,0,155
 	.byte 4,0,150,229,148,0,0,224,0,0,138,224,16,0,128,226,24,16,150,229,1,16,133,224,8,32,150,229,16,48,150,229
 	.byte 51,255,47,225,4,0,155,229
-.loc 3 187 0
+.loc 3 194 0
 
 	.byte 1,0,64,226,12,16,154,229,0,0,81,225,17,0,0,155,4,16,150,229,145,0,0,224,0,0,138,224,16,0,128,226
 	.byte 20,16,150,229,1,16,133,224,8,32,150,229,16,48,150,229,51,255,47,225,4,0,155,229
-.loc 3 180 0
+.loc 3 187 0
 
 	.byte 1,0,64,226,4,0,139,229,4,0,155,229,1,0,80,227,190,255,255,202,16,208,139,226,112,13,189,232,128,128,189,232
 	.byte 14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_18
 
 	.byte 143,1,0,2
 
@@ -906,31 +923,31 @@ Lme_16:
 	.align 2
 	.no_dead_strip _Rebels_Timer_2_Rebels_Timer_2ViewController_Shuffle_int_int__
 _Rebels_Timer_2_Rebels_Timer_2ViewController_Shuffle_int_int__:
-.loc 3 179 0
+.loc 3 186 0
 
 	.byte 128,64,45,233,13,112,160,225,112,13,45,233,0,160,160,225,0,0,159,229,0,0,0,234
 	.long _mono_aot_Rebels_Timer_2_got - . + 192
 	.byte 0,0,159,231,0,64,144,229,12,176,154,229
-.loc 3 180 0
+.loc 3 187 0
 
 	.byte 36,0,0,234
-.loc 3 183 0
+.loc 3 190 0
 
 	.byte 4,0,160,225,11,16,160,225,0,32,148,229,15,224,160,225,48,240,146,229,0,96,160,225
-.loc 3 185 0
+.loc 3 192 0
 
 	.byte 12,0,154,229,6,0,80,225,32,0,0,155,6,1,160,225,0,0,138,224,16,0,128,226,0,80,144,229
-.loc 3 186 0
+.loc 3 193 0
 
 	.byte 1,0,75,226,12,16,154,229,0,0,81,225,24,0,0,155,0,1,160,225,0,0,138,224,16,0,128,226,0,16,144,229
 	.byte 12,0,154,229,6,0,80,225,17,0,0,155,6,1,160,225,0,0,138,224,16,0,128,226,0,16,128,229
-.loc 3 187 0
+.loc 3 194 0
 
 	.byte 1,0,75,226,12,16,154,229,0,0,81,225,9,0,0,155,0,1,160,225,0,0,138,224,16,0,128,226,0,80,128,229
-.loc 3 180 0
+.loc 3 187 0
 
 	.byte 1,176,75,226,1,0,91,227,216,255,255,202,0,208,141,226,112,13,189,232,128,128,189,232,14,16,160,225,0,0,159,229
-bl _p_24
+bl _p_18
 
 	.byte 143,1,0,2
 
@@ -953,8 +970,8 @@ method_addresses:
 	bl _Rebels_Timer_2_Rebels_Timer_2ViewController_ViewDidLoad
 	bl _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedRESET_MonoTouch_UIKit_UIButton
 	bl _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedA_MonoTouch_UIKit_UIButton
-	bl _Rebels_Timer_2_Rebels_Timer_2ViewController_runTimer
 	bl _Rebels_Timer_2_Rebels_Timer_2ViewController_startTimer
+	bl _Rebels_Timer_2_Rebels_Timer_2ViewController_runTimer
 	bl _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedB_MonoTouch_UIKit_UIButton
 	bl _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedC_MonoTouch_UIKit_UIButton
 	bl _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedD_MonoTouch_UIKit_UIButton
@@ -1004,10 +1021,10 @@ extra_method_info_offsets:
 	.align 3
 class_name_table:
 
-	.short 11, 1, 0, 0, 0, 0, 0, 0
-	.short 0, 0, 0, 0, 0, 2, 12, 3
-	.short 11, 0, 0, 0, 0, 4, 0, 5
-	.short 0, 6, 0
+	.short 11, 1, 11, 0, 0, 0, 0, 0
+	.short 0, 0, 0, 0, 0, 2, 0, 3
+	.short 0, 6, 0, 0, 0, 4, 0, 5
+	.short 0
 .section __TEXT, __const
 	.align 3
 got_info_offsets:
@@ -1015,7 +1032,7 @@ got_info_offsets:
 	.long 54,10,6,2
 	.short 0, 11, 22, 33, 44, 55
 	.byte 128,168,2,1,1,1,3,4,3,3,3,128,192,3,7,3,4,4,4,4,4,4,128,233,4,4,4,4,4,4,4,4
-	.byte 4,129,17,4,4,4,4,4,4,7,4,4,129,60,4,7,4,4,5,4,5,2,5,129,105,4,4,7
+	.byte 4,129,17,4,4,4,4,4,4,7,4,4,129,60,4,7,4,4,5,2,5,5,5,129,105,4,4,7
 .section __TEXT, __const
 	.align 3
 ex_info_offsets:
@@ -1029,9 +1046,9 @@ unwind_info:
 
 	.byte 18,12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24,25,12,13,0,72,14,8,135,2,68,14,20,136
 	.byte 5,138,4,139,3,142,1,68,14,64,68,13,11,20,12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68
-	.byte 14,112,20,12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24,28,12,13,0,72,14,8,135,2
-	.byte 68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,56,18,12,13,0,72,14,8,135,2,68,14,12
-	.byte 136,3,142,1,68,14,32,26,12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,139,3,142,1,68
+	.byte 14,112,20,12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24,18,12,13,0,72,14,8,135,2
+	.byte 68,14,12,136,3,142,1,68,14,32,28,12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4
+	.byte 139,3,142,1,68,14,56,26,12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,139,3,142,1,68
 	.byte 14,40,28,12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,40,28
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48,31,12,13,0
 	.byte 72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48,68,13,11,25,12,13,0
@@ -1132,66 +1149,66 @@ _p_14:
 
 	.byte 0,192,159,229,12,240,159,231
 	.long _mono_aot_Rebels_Timer_2_got - . + 268,484
-	.no_dead_strip plt__jit_icall_mono_object_new_ptrfree
-plt__jit_icall_mono_object_new_ptrfree:
+	.no_dead_strip plt__jit_icall_mono_object_new_fast
+plt__jit_icall_mono_object_new_fast:
 _p_15:
 
 	.byte 0,192,159,229,12,240,159,231
 	.long _mono_aot_Rebels_Timer_2_got - . + 272,486
-	.no_dead_strip plt_System_Random__ctor
-plt_System_Random__ctor:
+	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_System_Action
+plt_System_Threading_Tasks_Task__ctor_System_Action:
 _p_16:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Rebels_Timer_2_got - . + 276,512
-	.no_dead_strip plt_System_Diagnostics_Stopwatch_Restart
-plt_System_Diagnostics_Stopwatch_Restart:
+	.long _mono_aot_Rebels_Timer_2_got - . + 276,509
+	.no_dead_strip plt_System_Threading_Tasks_Task_Start
+plt_System_Threading_Tasks_Task_Start:
 _p_17:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Rebels_Timer_2_got - . + 280,517
-	.no_dead_strip plt_System_Diagnostics_Stopwatch_get_ElapsedMilliseconds
-plt_System_Diagnostics_Stopwatch_get_ElapsedMilliseconds:
+	.long _mono_aot_Rebels_Timer_2_got - . + 280,514
+	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
+plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_18:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Rebels_Timer_2_got - . + 284,522
-	.no_dead_strip plt_System_Threading_Thread_Sleep_int
-plt_System_Threading_Thread_Sleep_int:
+	.long _mono_aot_Rebels_Timer_2_got - . + 284,519
+	.no_dead_strip plt__jit_icall_mono_object_new_ptrfree
+plt__jit_icall_mono_object_new_ptrfree:
 _p_19:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Rebels_Timer_2_got - . + 288,527
-	.no_dead_strip plt_System_Diagnostics_Stopwatch_Stop
-plt_System_Diagnostics_Stopwatch_Stop:
+	.long _mono_aot_Rebels_Timer_2_got - . + 288,554
+	.no_dead_strip plt_System_Random__ctor
+plt_System_Random__ctor:
 _p_20:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Rebels_Timer_2_got - . + 292,532
-	.no_dead_strip plt__jit_icall_mono_object_new_fast
-plt__jit_icall_mono_object_new_fast:
+	.long _mono_aot_Rebels_Timer_2_got - . + 292,580
+	.no_dead_strip plt_System_Diagnostics_Stopwatch_Restart
+plt_System_Diagnostics_Stopwatch_Restart:
 _p_21:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Rebels_Timer_2_got - . + 296,537
-	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_System_Action
-plt_System_Threading_Tasks_Task__ctor_System_Action:
+	.long _mono_aot_Rebels_Timer_2_got - . + 296,585
+	.no_dead_strip plt_System_Diagnostics_Stopwatch_get_ElapsedMilliseconds
+plt_System_Diagnostics_Stopwatch_get_ElapsedMilliseconds:
 _p_22:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Rebels_Timer_2_got - . + 300,560
-	.no_dead_strip plt_System_Threading_Tasks_Task_Start
-plt_System_Threading_Tasks_Task_Start:
+	.long _mono_aot_Rebels_Timer_2_got - . + 300,590
+	.no_dead_strip plt_System_Threading_Thread_Sleep_int
+plt_System_Threading_Thread_Sleep_int:
 _p_23:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Rebels_Timer_2_got - . + 304,565
-	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
-plt__jit_icall_mono_arch_throw_corlib_exception:
+	.long _mono_aot_Rebels_Timer_2_got - . + 304,595
+	.no_dead_strip plt_System_Diagnostics_Stopwatch_Stop
+plt_System_Diagnostics_Stopwatch_Stop:
 _p_24:
 
 	.byte 0,192,159,229,12,240,159,231
-	.long _mono_aot_Rebels_Timer_2_got - . + 308,570
+	.long _mono_aot_Rebels_Timer_2_got - . + 308,600
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_25:
@@ -1247,7 +1264,7 @@ image_table:
 
 	.long 4
 	.asciz "Rebels_Timer_2"
-	.asciz "1E94F8B7-75D6-4467-B816-6DA7558E3554"
+	.asciz "D3FF5B19-FB16-4B0B-9070-B4E8A043FCD4"
 	.asciz ""
 	.asciz ""
 	.align 3
@@ -1282,7 +1299,7 @@ got_end:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "1E94F8B7-75D6-4467-B816-6DA7558E3554"
+	.asciz "D3FF5B19-FB16-4B0B-9070-B4E8A043FCD4"
 .section __TEXT, __const
 	.align 2
 runtime_version:
@@ -1371,28 +1388,28 @@ blob:
 
 	.byte 0,0,0,0,1,4,0,0,0,2,5,6,1,4,37,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23
 	.byte 24,25,26,27,28,29,30,31,32,33,34,35,11,36,37,38,39,40,41,42,1,4,0,1,4,0,1,4,2,43,41,1
-	.byte 4,0,1,4,4,44,45,43,41,1,4,4,46,47,48,49,1,4,0,1,4,0,1,4,0,1,4,8,43,41,43,9
-	.byte 50,50,43,41,1,4,1,51,1,4,4,36,52,53,36,1,4,2,43,43,1,4,0,1,4,2,44,51,1,4,0,1
+	.byte 4,0,1,4,4,44,45,46,47,1,4,4,48,49,43,41,1,4,0,1,4,0,1,4,0,1,4,8,43,41,43,9
+	.byte 50,50,43,41,1,4,1,51,1,4,4,36,52,53,36,1,4,2,43,43,1,4,0,1,4,2,48,51,1,4,0,1
 	.byte 4,1,51,1,4,1,51,5,30,0,0,1,255,253,0,0,0,1,4,0,198,0,0,16,0,1,7,128,135,255,254,0
 	.byte 0,0,0,255,43,0,0,1,12,0,39,42,47,17,0,1,14,2,76,1,14,1,4,17,0,25,17,0,49,17,0,65
 	.byte 17,0,103,14,6,1,2,129,193,2,17,0,121,17,0,128,129,17,0,128,137,17,0,128,145,17,0,128,153,17,0,128
 	.byte 161,17,0,128,169,17,0,128,177,17,0,128,185,17,0,128,193,17,0,128,201,17,0,128,209,17,0,128,217,17,0,128
 	.byte 225,17,0,128,233,17,0,128,241,17,0,128,249,17,0,129,1,17,0,129,9,17,0,129,17,17,0,129,25,17,0,129
 	.byte 33,17,0,129,41,17,0,129,49,14,6,1,2,129,145,2,17,0,129,57,17,0,129,61,17,0,129,65,17,0,129,69
-	.byte 16,2,129,193,2,134,68,17,0,129,73,16,1,4,10,14,2,129,180,2,14,2,2,3,14,2,129,66,2,6,21,30
-	.byte 2,129,66,2,14,2,129,17,2,16,1,4,11,16,1,4,18,29,0,196,0,0,19,0,34,255,254,0,0,0,0,255
+	.byte 16,2,129,193,2,134,68,17,0,129,73,16,1,4,10,14,2,129,66,2,6,21,30,2,129,66,2,14,2,129,17,2
+	.byte 14,2,129,180,2,14,2,2,3,16,1,4,11,16,1,4,19,29,0,196,0,0,20,0,34,255,254,0,0,0,0,255
 	.byte 43,0,0,1,3,193,0,1,104,3,193,0,1,157,3,193,0,1,125,7,24,109,111,110,111,95,111,98,106,101,99,116
 	.byte 95,110,101,119,95,115,112,101,99,105,102,105,99,0,3,193,0,1,147,3,5,7,23,109,111,110,111,95,97,114,114,97
 	.byte 121,95,110,101,119,95,115,112,101,99,105,102,105,99,0,3,193,0,1,140,3,193,0,1,142,3,193,0,1,141,3,15
-	.byte 3,17,3,18,3,11,7,23,109,111,110,111,95,111,98,106,101,99,116,95,110,101,119,95,112,116,114,102,114,101,101,0
-	.byte 3,194,0,8,36,3,195,0,0,7,3,195,0,0,3,3,194,0,5,90,3,195,0,0,6,7,20,109,111,110,111,95
-	.byte 111,98,106,101,99,116,95,110,101,119,95,102,97,115,116,0,3,194,0,4,163,3,194,0,4,175,7,32,109,111,110,111
-	.byte 95,97,114,99,104,95,116,104,114,111,119,95,99,111,114,108,105,98,95,101,120,99,101,112,116,105,111,110,0,3,194,0
+	.byte 3,17,3,18,3,10,7,20,109,111,110,111,95,111,98,106,101,99,116,95,110,101,119,95,102,97,115,116,0,3,194,0
+	.byte 4,163,3,194,0,4,175,7,32,109,111,110,111,95,97,114,99,104,95,116,104,114,111,119,95,99,111,114,108,105,98,95
+	.byte 101,120,99,101,112,116,105,111,110,0,7,23,109,111,110,111,95,111,98,106,101,99,116,95,110,101,119,95,112,116,114,102
+	.byte 114,101,101,0,3,194,0,8,36,3,195,0,0,7,3,195,0,0,3,3,194,0,5,90,3,195,0,0,6,3,194,0
 	.byte 8,137,3,194,0,8,89,3,193,0,0,62,3,193,0,0,4,3,194,0,8,163,3,255,254,0,0,0,0,255,43,0
-	.byte 0,1,3,10,255,253,0,0,0,1,4,0,198,0,0,16,0,1,7,128,135,35,130,132,192,0,92,41,255,253,0,0
+	.byte 0,1,3,11,255,253,0,0,0,1,4,0,198,0,0,16,0,1,7,128,135,35,130,132,192,0,92,41,255,253,0,0
 	.byte 0,1,4,0,198,0,0,16,0,1,7,128,135,6,13,7,128,135,14,7,128,135,23,7,128,135,22,7,128,135,21,7
 	.byte 128,135,21,7,128,135,2,0,0,2,0,0,2,0,0,2,19,0,2,45,0,2,0,0,2,0,0,2,66,0,2,66
-	.byte 0,2,87,0,2,116,0,2,66,0,2,66,0,2,66,0,2,128,135,0,5,30,0,1,255,255,255,255,255,16,3,128
+	.byte 0,2,87,0,2,106,0,2,66,0,2,66,0,2,66,0,2,128,135,0,5,30,0,1,255,255,255,255,255,16,3,128
 	.byte 162,0,1,13,0,17,255,253,0,0,0,1,4,0,198,0,0,16,0,1,7,130,244,0,0,2,128,191,0,2,0,0
 	.byte 2,0,0,2,0,0,2,0,0,3,128,220,0,1,11,8,17,255,253,0,0,0,1,4,0,198,0,0,16,0,1,7
 	.byte 128,135,1,0,1,1,0,2,128,252,0,0,128,144,8,0,0,1,4,128,144,8,0,0,1,194,0,8,22,194,0,8
@@ -1802,58 +1819,63 @@ LDIFF_SYM65=LDIE_STRING - Ldebug_info_start
 LDIFF_SYM66=LDIE_STRING - Ldebug_info_start
 	.long LDIFF_SYM66
 	.byte 2,35,64,6
-	.asciz "isRunning"
+	.asciz "didWin"
 
 LDIFF_SYM67=LDIE_BOOLEAN - Ldebug_info_start
 	.long LDIFF_SYM67
-	.byte 2,35,68,0,7
+	.byte 2,35,68,6
+	.asciz "isRunning"
+
+LDIFF_SYM68=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM68
+	.byte 2,35,69,0,7
 	.asciz "Rebels_Timer_2_Rebels_Timer_2ViewController"
 
-LDIFF_SYM68=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM68
+LDIFF_SYM69=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM69
 LTDIE_10_POINTER:
 
 	.byte 13
-LDIFF_SYM69=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM69
+LDIFF_SYM70=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM70
 LTDIE_10_REFERENCE:
 
 	.byte 14
-LDIFF_SYM70=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM70
+LDIFF_SYM71=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM71
 LTDIE_2:
 
 	.byte 5
 	.asciz "Rebels_Timer_2_AppDelegate"
 
 	.byte 28,16
-LDIFF_SYM71=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM71
+LDIFF_SYM72=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM72
 	.byte 2,35,0,6
 	.asciz "window"
 
-LDIFF_SYM72=LTDIE_7_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM72
+LDIFF_SYM73=LTDIE_7_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM73
 	.byte 2,35,20,6
 	.asciz "viewController"
 
-LDIFF_SYM73=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM73
+LDIFF_SYM74=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM74
 	.byte 2,35,24,0,7
 	.asciz "Rebels_Timer_2_AppDelegate"
 
-LDIFF_SYM74=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM74
+LDIFF_SYM75=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM75
 LTDIE_2_POINTER:
 
 	.byte 13
-LDIFF_SYM75=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM75
+LDIFF_SYM76=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM76
 LTDIE_2_REFERENCE:
 
 	.byte 14
-LDIFF_SYM76=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM76
+LDIFF_SYM77=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM77
 	.byte 2
 	.asciz "Rebels_Timer_2.AppDelegate:.ctor"
 	.long _Rebels_Timer_2_AppDelegate__ctor
@@ -1862,22 +1884,22 @@ LDIFF_SYM76=LTDIE_2 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM77=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM77
+LDIFF_SYM78=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM78
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM78=Lfde2_end - Lfde2_start
-	.long LDIFF_SYM78
+LDIFF_SYM79=Lfde2_end - Lfde2_start
+	.long LDIFF_SYM79
 Lfde2_start:
 
 	.long 0
 	.align 2
 	.long _Rebels_Timer_2_AppDelegate__ctor
 
-LDIFF_SYM79=Lme_2 - _Rebels_Timer_2_AppDelegate__ctor
-	.long LDIFF_SYM79
+LDIFF_SYM80=Lme_2 - _Rebels_Timer_2_AppDelegate__ctor
+	.long LDIFF_SYM80
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde2_end:
@@ -1889,51 +1911,51 @@ LTDIE_12:
 	.asciz "MonoTouch_UIKit_UIApplication"
 
 	.byte 20,16
-LDIFF_SYM80=LTDIE_9 - Ldebug_info_start
-	.long LDIFF_SYM80
+LDIFF_SYM81=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM81
 	.byte 2,35,0,0,7
 	.asciz "MonoTouch_UIKit_UIApplication"
 
-LDIFF_SYM81=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM81
+LDIFF_SYM82=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM82
 LTDIE_12_POINTER:
 
 	.byte 13
-LDIFF_SYM82=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM82
+LDIFF_SYM83=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM83
 LTDIE_12_REFERENCE:
 
 	.byte 14
-LDIFF_SYM83=LTDIE_12 - Ldebug_info_start
-	.long LDIFF_SYM83
+LDIFF_SYM84=LTDIE_12 - Ldebug_info_start
+	.long LDIFF_SYM84
 LTDIE_13:
 
 	.byte 5
 	.asciz "MonoTouch_Foundation_NSDictionary"
 
 	.byte 24,16
-LDIFF_SYM84=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM84
+LDIFF_SYM85=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM85
 	.byte 2,35,0,6
 	.asciz "__mt_Keys_var"
 
-LDIFF_SYM85=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM85
+LDIFF_SYM86=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM86
 	.byte 2,35,20,0,7
 	.asciz "MonoTouch_Foundation_NSDictionary"
 
-LDIFF_SYM86=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM86
+LDIFF_SYM87=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM87
 LTDIE_13_POINTER:
 
 	.byte 13
-LDIFF_SYM87=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM87
+LDIFF_SYM88=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM88
 LTDIE_13_REFERENCE:
 
 	.byte 14
-LDIFF_SYM88=LTDIE_13 - Ldebug_info_start
-	.long LDIFF_SYM88
+LDIFF_SYM89=LTDIE_13 - Ldebug_info_start
+	.long LDIFF_SYM89
 	.byte 2
 	.asciz "Rebels_Timer_2.AppDelegate:FinishedLaunching"
 	.long _Rebels_Timer_2_AppDelegate_FinishedLaunching_MonoTouch_UIKit_UIApplication_MonoTouch_Foundation_NSDictionary
@@ -1942,32 +1964,32 @@ LDIFF_SYM88=LTDIE_13 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM89=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM89
+LDIFF_SYM90=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM90
 	.byte 1,90,3
 	.asciz "app"
 
-LDIFF_SYM90=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM90
+LDIFF_SYM91=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM91
 	.byte 0,3
 	.asciz "options"
 
-LDIFF_SYM91=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM91
+LDIFF_SYM92=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM92
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM92=Lfde3_end - Lfde3_start
-	.long LDIFF_SYM92
+LDIFF_SYM93=Lfde3_end - Lfde3_start
+	.long LDIFF_SYM93
 Lfde3_start:
 
 	.long 0
 	.align 2
 	.long _Rebels_Timer_2_AppDelegate_FinishedLaunching_MonoTouch_UIKit_UIApplication_MonoTouch_Foundation_NSDictionary
 
-LDIFF_SYM93=Lme_3 - _Rebels_Timer_2_AppDelegate_FinishedLaunching_MonoTouch_UIKit_UIApplication_MonoTouch_Foundation_NSDictionary
-	.long LDIFF_SYM93
+LDIFF_SYM94=Lme_3 - _Rebels_Timer_2_AppDelegate_FinishedLaunching_MonoTouch_UIKit_UIApplication_MonoTouch_Foundation_NSDictionary
+	.long LDIFF_SYM94
 	.byte 12,13,0,72,14,8,135,2,68,14,20,136,5,138,4,139,3,142,1,68,14,64,68,13,11
 	.align 2
 Lfde3_end:
@@ -1982,22 +2004,22 @@ Lfde3_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM94=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM94
+LDIFF_SYM95=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM95
 	.byte 1,90,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM95=Lfde4_end - Lfde4_start
-	.long LDIFF_SYM95
+LDIFF_SYM96=Lfde4_end - Lfde4_start
+	.long LDIFF_SYM96
 Lfde4_start:
 
 	.long 0
 	.align 2
 	.long _Rebels_Timer_2_Rebels_Timer_2ViewController__ctor
 
-LDIFF_SYM96=Lme_4 - _Rebels_Timer_2_Rebels_Timer_2ViewController__ctor
-	.long LDIFF_SYM96
+LDIFF_SYM97=Lme_4 - _Rebels_Timer_2_Rebels_Timer_2ViewController__ctor
+	.long LDIFF_SYM97
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,112
 	.align 2
 Lfde4_end:
@@ -2012,22 +2034,22 @@ Lfde4_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM97=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM97
+LDIFF_SYM98=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM98
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM98=Lfde5_end - Lfde5_start
-	.long LDIFF_SYM98
+LDIFF_SYM99=Lfde5_end - Lfde5_start
+	.long LDIFF_SYM99
 Lfde5_start:
 
 	.long 0
 	.align 2
 	.long _Rebels_Timer_2_Rebels_Timer_2ViewController_DidReceiveMemoryWarning
 
-LDIFF_SYM99=Lme_5 - _Rebels_Timer_2_Rebels_Timer_2ViewController_DidReceiveMemoryWarning
-	.long LDIFF_SYM99
+LDIFF_SYM100=Lme_5 - _Rebels_Timer_2_Rebels_Timer_2ViewController_DidReceiveMemoryWarning
+	.long LDIFF_SYM100
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde5_end:
@@ -2042,22 +2064,22 @@ Lfde5_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM100=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM100
+LDIFF_SYM101=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM101
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM101=Lfde6_end - Lfde6_start
-	.long LDIFF_SYM101
+LDIFF_SYM102=Lfde6_end - Lfde6_start
+	.long LDIFF_SYM102
 Lfde6_start:
 
 	.long 0
 	.align 2
 	.long _Rebels_Timer_2_Rebels_Timer_2ViewController_ViewDidLoad
 
-LDIFF_SYM102=Lme_6 - _Rebels_Timer_2_Rebels_Timer_2ViewController_ViewDidLoad
-	.long LDIFF_SYM102
+LDIFF_SYM103=Lme_6 - _Rebels_Timer_2_Rebels_Timer_2ViewController_ViewDidLoad
+	.long LDIFF_SYM103
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde6_end:
@@ -2069,46 +2091,46 @@ LTDIE_15:
 	.asciz "MonoTouch_UIKit_UIControl"
 
 	.byte 20,16
-LDIFF_SYM103=LTDIE_8 - Ldebug_info_start
-	.long LDIFF_SYM103
+LDIFF_SYM104=LTDIE_8 - Ldebug_info_start
+	.long LDIFF_SYM104
 	.byte 2,35,0,0,7
 	.asciz "MonoTouch_UIKit_UIControl"
 
-LDIFF_SYM104=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM104
+LDIFF_SYM105=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM105
 LTDIE_15_POINTER:
 
 	.byte 13
-LDIFF_SYM105=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM105
+LDIFF_SYM106=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM106
 LTDIE_15_REFERENCE:
 
 	.byte 14
-LDIFF_SYM106=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM106
+LDIFF_SYM107=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM107
 LTDIE_14:
 
 	.byte 5
 	.asciz "MonoTouch_UIKit_UIButton"
 
 	.byte 20,16
-LDIFF_SYM107=LTDIE_15 - Ldebug_info_start
-	.long LDIFF_SYM107
+LDIFF_SYM108=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM108
 	.byte 2,35,0,0,7
 	.asciz "MonoTouch_UIKit_UIButton"
 
-LDIFF_SYM108=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM108
+LDIFF_SYM109=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM109
 LTDIE_14_POINTER:
 
 	.byte 13
-LDIFF_SYM109=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM109
+LDIFF_SYM110=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM110
 LTDIE_14_REFERENCE:
 
 	.byte 14
-LDIFF_SYM110=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM110
+LDIFF_SYM111=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM111
 	.byte 2
 	.asciz "Rebels_Timer_2.Rebels_Timer_2ViewController:pressedRESET"
 	.long _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedRESET_MonoTouch_UIKit_UIButton
@@ -2117,27 +2139,27 @@ LDIFF_SYM110=LTDIE_14 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM111=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM111
+LDIFF_SYM112=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM112
 	.byte 1,90,3
 	.asciz "sender"
 
-LDIFF_SYM112=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM112
+LDIFF_SYM113=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM113
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM113=Lfde7_end - Lfde7_start
-	.long LDIFF_SYM113
+LDIFF_SYM114=Lfde7_end - Lfde7_start
+	.long LDIFF_SYM114
 Lfde7_start:
 
 	.long 0
 	.align 2
 	.long _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedRESET_MonoTouch_UIKit_UIButton
 
-LDIFF_SYM114=Lme_7 - _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedRESET_MonoTouch_UIKit_UIButton
-	.long LDIFF_SYM114
+LDIFF_SYM115=Lme_7 - _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedRESET_MonoTouch_UIKit_UIButton
+	.long LDIFF_SYM115
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde7_end:
@@ -2152,559 +2174,373 @@ Lfde7_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM115=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM115
+LDIFF_SYM116=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM116
 	.byte 1,90,3
 	.asciz "sender"
 
-LDIFF_SYM116=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM116
+LDIFF_SYM117=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM117
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM117=Lfde8_end - Lfde8_start
-	.long LDIFF_SYM117
+LDIFF_SYM118=Lfde8_end - Lfde8_start
+	.long LDIFF_SYM118
 Lfde8_start:
 
 	.long 0
 	.align 2
 	.long _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedA_MonoTouch_UIKit_UIButton
 
-LDIFF_SYM118=Lme_8 - _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedA_MonoTouch_UIKit_UIButton
-	.long LDIFF_SYM118
+LDIFF_SYM119=Lme_8 - _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedA_MonoTouch_UIKit_UIButton
+	.long LDIFF_SYM119
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde8_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_17:
-
-	.byte 5
-	.asciz "System_UInt32"
-
-	.byte 12,16
-LDIFF_SYM119=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM119
-	.byte 2,35,0,6
-	.asciz "m_value"
-
-LDIFF_SYM120=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM120
-	.byte 2,35,8,0,7
-	.asciz "System_UInt32"
-
-LDIFF_SYM121=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM121
-LTDIE_17_POINTER:
-
-	.byte 13
-LDIFF_SYM122=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM122
-LTDIE_17_REFERENCE:
-
-	.byte 14
-LDIFF_SYM123=LTDIE_17 - Ldebug_info_start
-	.long LDIFF_SYM123
-LTDIE_16:
-
-	.byte 5
-	.asciz "System_Random"
-
-	.byte 24,16
-LDIFF_SYM124=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM124
-	.byte 2,35,0,6
-	.asciz "x"
-
-LDIFF_SYM125=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM125
-	.byte 2,35,8,6
-	.asciz "y"
-
-LDIFF_SYM126=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM126
-	.byte 2,35,12,6
-	.asciz "z"
-
-LDIFF_SYM127=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM127
-	.byte 2,35,16,6
-	.asciz "c"
-
-LDIFF_SYM128=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM128
-	.byte 2,35,20,0,7
-	.asciz "System_Random"
-
-LDIFF_SYM129=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM129
-LTDIE_16_POINTER:
-
-	.byte 13
-LDIFF_SYM130=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM130
-LTDIE_16_REFERENCE:
-
-	.byte 14
-LDIFF_SYM131=LTDIE_16 - Ldebug_info_start
-	.long LDIFF_SYM131
 LTDIE_18:
 
 	.byte 5
 	.asciz "System_Int32"
 
 	.byte 12,16
-LDIFF_SYM132=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM132
+LDIFF_SYM120=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM120
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM133=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM133
+LDIFF_SYM121=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM121
 	.byte 2,35,8,0,7
 	.asciz "System_Int32"
 
-LDIFF_SYM134=LTDIE_18 - Ldebug_info_start
-	.long LDIFF_SYM134
+LDIFF_SYM122=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM122
 LTDIE_18_POINTER:
 
 	.byte 13
-LDIFF_SYM135=LTDIE_18 - Ldebug_info_start
-	.long LDIFF_SYM135
+LDIFF_SYM123=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM123
 LTDIE_18_REFERENCE:
 
 	.byte 14
-LDIFF_SYM136=LTDIE_18 - Ldebug_info_start
-	.long LDIFF_SYM136
-LTDIE_20:
-
-	.byte 5
-	.asciz "System_Int64"
-
-	.byte 16,16
-LDIFF_SYM137=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM137
-	.byte 2,35,0,6
-	.asciz "m_value"
-
-LDIFF_SYM138=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM138
-	.byte 2,35,8,0,7
-	.asciz "System_Int64"
-
-LDIFF_SYM139=LTDIE_20 - Ldebug_info_start
-	.long LDIFF_SYM139
-LTDIE_20_POINTER:
-
-	.byte 13
-LDIFF_SYM140=LTDIE_20 - Ldebug_info_start
-	.long LDIFF_SYM140
-LTDIE_20_REFERENCE:
-
-	.byte 14
-LDIFF_SYM141=LTDIE_20 - Ldebug_info_start
-	.long LDIFF_SYM141
-LTDIE_19:
-
-	.byte 5
-	.asciz "System_Diagnostics_Stopwatch"
-
-	.byte 28,16
-LDIFF_SYM142=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM142
-	.byte 2,35,0,6
-	.asciz "elapsed"
-
-LDIFF_SYM143=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM143
-	.byte 2,35,8,6
-	.asciz "started"
-
-LDIFF_SYM144=LDIE_I8 - Ldebug_info_start
-	.long LDIFF_SYM144
-	.byte 2,35,16,6
-	.asciz "is_running"
-
-LDIFF_SYM145=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM145
-	.byte 2,35,24,0,7
-	.asciz "System_Diagnostics_Stopwatch"
-
-LDIFF_SYM146=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM146
-LTDIE_19_POINTER:
-
-	.byte 13
-LDIFF_SYM147=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM147
-LTDIE_19_REFERENCE:
-
-	.byte 14
-LDIFF_SYM148=LTDIE_19 - Ldebug_info_start
-	.long LDIFF_SYM148
-	.byte 2
-	.asciz "Rebels_Timer_2.Rebels_Timer_2ViewController:runTimer"
-	.long _Rebels_Timer_2_Rebels_Timer_2ViewController_runTimer
-	.long Lme_9
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM149=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM149
-	.byte 2,125,8,11
-	.asciz "randTime"
-
-LDIFF_SYM150=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM150
-	.byte 0,11
-	.asciz "timeAllowed"
-
-LDIFF_SYM151=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM151
-	.byte 1,86,11
-	.asciz "SW"
-
-LDIFF_SYM152=LTDIE_19_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM152
-	.byte 1,85,11
-	.asciz "h"
-
-LDIFF_SYM153=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM153
-	.byte 1,84,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM154=Lfde9_end - Lfde9_start
-	.long LDIFF_SYM154
-Lfde9_start:
-
-	.long 0
-	.align 2
-	.long _Rebels_Timer_2_Rebels_Timer_2ViewController_runTimer
-
-LDIFF_SYM155=Lme_9 - _Rebels_Timer_2_Rebels_Timer_2ViewController_runTimer
-	.long LDIFF_SYM155
-	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,56
-	.align 2
-Lfde9_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_27:
+LDIFF_SYM124=LTDIE_18 - Ldebug_info_start
+	.long LDIFF_SYM124
+LTDIE_23:
 
 	.byte 5
 	.asciz "System_MarshalByRefObject"
 
 	.byte 12,16
-LDIFF_SYM156=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM156
+LDIFF_SYM125=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM125
 	.byte 2,35,0,6
 	.asciz "_identity"
 
-LDIFF_SYM157=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM157
+LDIFF_SYM126=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM126
 	.byte 2,35,8,0,7
 	.asciz "System_MarshalByRefObject"
 
-LDIFF_SYM158=LTDIE_27 - Ldebug_info_start
-	.long LDIFF_SYM158
-LTDIE_27_POINTER:
+LDIFF_SYM127=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM127
+LTDIE_23_POINTER:
 
 	.byte 13
-LDIFF_SYM159=LTDIE_27 - Ldebug_info_start
-	.long LDIFF_SYM159
-LTDIE_27_REFERENCE:
+LDIFF_SYM128=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM128
+LTDIE_23_REFERENCE:
 
 	.byte 14
-LDIFF_SYM160=LTDIE_27 - Ldebug_info_start
-	.long LDIFF_SYM160
-LTDIE_31:
+LDIFF_SYM129=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM129
+LTDIE_27:
 
 	.byte 5
 	.asciz "System_Runtime_ConstrainedExecution_CriticalFinalizerObject"
 
 	.byte 8,16
-LDIFF_SYM161=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM161
+LDIFF_SYM130=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM130
 	.byte 2,35,0,0,7
 	.asciz "System_Runtime_ConstrainedExecution_CriticalFinalizerObject"
 
-LDIFF_SYM162=LTDIE_31 - Ldebug_info_start
-	.long LDIFF_SYM162
-LTDIE_31_POINTER:
+LDIFF_SYM131=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM131
+LTDIE_27_POINTER:
 
 	.byte 13
-LDIFF_SYM163=LTDIE_31 - Ldebug_info_start
-	.long LDIFF_SYM163
-LTDIE_31_REFERENCE:
+LDIFF_SYM132=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM132
+LTDIE_27_REFERENCE:
 
 	.byte 14
-LDIFF_SYM164=LTDIE_31 - Ldebug_info_start
-	.long LDIFF_SYM164
-LTDIE_30:
-
-	.byte 5
-	.asciz "System_Runtime_InteropServices_SafeHandle"
-
-	.byte 24,16
-LDIFF_SYM165=LTDIE_31 - Ldebug_info_start
-	.long LDIFF_SYM165
-	.byte 2,35,0,6
-	.asciz "handle"
-
-LDIFF_SYM166=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM166
-	.byte 2,35,8,6
-	.asciz "invalid_handle_value"
-
-LDIFF_SYM167=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM167
-	.byte 2,35,12,6
-	.asciz "refcount"
-
-LDIFF_SYM168=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM168
-	.byte 2,35,16,6
-	.asciz "owns_handle"
-
-LDIFF_SYM169=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM169
-	.byte 2,35,20,0,7
-	.asciz "System_Runtime_InteropServices_SafeHandle"
-
-LDIFF_SYM170=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM170
-LTDIE_30_POINTER:
-
-	.byte 13
-LDIFF_SYM171=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM171
-LTDIE_30_REFERENCE:
-
-	.byte 14
-LDIFF_SYM172=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM172
-LTDIE_29:
-
-	.byte 5
-	.asciz "Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid"
-
-	.byte 24,16
-LDIFF_SYM173=LTDIE_30 - Ldebug_info_start
-	.long LDIFF_SYM173
-	.byte 2,35,0,0,7
-	.asciz "Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid"
-
-LDIFF_SYM174=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM174
-LTDIE_29_POINTER:
-
-	.byte 13
-LDIFF_SYM175=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM175
-LTDIE_29_REFERENCE:
-
-	.byte 14
-LDIFF_SYM176=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM176
-LTDIE_28:
-
-	.byte 5
-	.asciz "Microsoft_Win32_SafeHandles_SafeWaitHandle"
-
-	.byte 24,16
-LDIFF_SYM177=LTDIE_29 - Ldebug_info_start
-	.long LDIFF_SYM177
-	.byte 2,35,0,0,7
-	.asciz "Microsoft_Win32_SafeHandles_SafeWaitHandle"
-
-LDIFF_SYM178=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM178
-LTDIE_28_POINTER:
-
-	.byte 13
-LDIFF_SYM179=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM179
-LTDIE_28_REFERENCE:
-
-	.byte 14
-LDIFF_SYM180=LTDIE_28 - Ldebug_info_start
-	.long LDIFF_SYM180
+LDIFF_SYM133=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM133
 LTDIE_26:
 
 	.byte 5
-	.asciz "System_Threading_WaitHandle"
+	.asciz "System_Runtime_InteropServices_SafeHandle"
 
-	.byte 20,16
-LDIFF_SYM181=LTDIE_27 - Ldebug_info_start
-	.long LDIFF_SYM181
+	.byte 24,16
+LDIFF_SYM134=LTDIE_27 - Ldebug_info_start
+	.long LDIFF_SYM134
 	.byte 2,35,0,6
-	.asciz "safe_wait_handle"
+	.asciz "handle"
 
-LDIFF_SYM182=LTDIE_28_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM182
+LDIFF_SYM135=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM135
+	.byte 2,35,8,6
+	.asciz "invalid_handle_value"
+
+LDIFF_SYM136=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM136
 	.byte 2,35,12,6
-	.asciz "disposed"
+	.asciz "refcount"
 
-LDIFF_SYM183=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM183
-	.byte 2,35,16,0,7
-	.asciz "System_Threading_WaitHandle"
+LDIFF_SYM137=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM137
+	.byte 2,35,16,6
+	.asciz "owns_handle"
 
-LDIFF_SYM184=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM184
+LDIFF_SYM138=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM138
+	.byte 2,35,20,0,7
+	.asciz "System_Runtime_InteropServices_SafeHandle"
+
+LDIFF_SYM139=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM139
 LTDIE_26_POINTER:
 
 	.byte 13
-LDIFF_SYM185=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM185
+LDIFF_SYM140=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM140
 LTDIE_26_REFERENCE:
 
 	.byte 14
-LDIFF_SYM186=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM186
+LDIFF_SYM141=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM141
 LTDIE_25:
 
 	.byte 5
-	.asciz "System_Threading_EventWaitHandle"
+	.asciz "Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid"
 
-	.byte 20,16
-LDIFF_SYM187=LTDIE_26 - Ldebug_info_start
-	.long LDIFF_SYM187
+	.byte 24,16
+LDIFF_SYM142=LTDIE_26 - Ldebug_info_start
+	.long LDIFF_SYM142
 	.byte 2,35,0,0,7
-	.asciz "System_Threading_EventWaitHandle"
+	.asciz "Microsoft_Win32_SafeHandles_SafeHandleZeroOrMinusOneIsInvalid"
 
-LDIFF_SYM188=LTDIE_25 - Ldebug_info_start
-	.long LDIFF_SYM188
+LDIFF_SYM143=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM143
 LTDIE_25_POINTER:
 
 	.byte 13
-LDIFF_SYM189=LTDIE_25 - Ldebug_info_start
-	.long LDIFF_SYM189
+LDIFF_SYM144=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM144
 LTDIE_25_REFERENCE:
 
 	.byte 14
-LDIFF_SYM190=LTDIE_25 - Ldebug_info_start
-	.long LDIFF_SYM190
+LDIFF_SYM145=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM145
 LTDIE_24:
+
+	.byte 5
+	.asciz "Microsoft_Win32_SafeHandles_SafeWaitHandle"
+
+	.byte 24,16
+LDIFF_SYM146=LTDIE_25 - Ldebug_info_start
+	.long LDIFF_SYM146
+	.byte 2,35,0,0,7
+	.asciz "Microsoft_Win32_SafeHandles_SafeWaitHandle"
+
+LDIFF_SYM147=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM147
+LTDIE_24_POINTER:
+
+	.byte 13
+LDIFF_SYM148=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM148
+LTDIE_24_REFERENCE:
+
+	.byte 14
+LDIFF_SYM149=LTDIE_24 - Ldebug_info_start
+	.long LDIFF_SYM149
+LTDIE_22:
+
+	.byte 5
+	.asciz "System_Threading_WaitHandle"
+
+	.byte 20,16
+LDIFF_SYM150=LTDIE_23 - Ldebug_info_start
+	.long LDIFF_SYM150
+	.byte 2,35,0,6
+	.asciz "safe_wait_handle"
+
+LDIFF_SYM151=LTDIE_24_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM151
+	.byte 2,35,12,6
+	.asciz "disposed"
+
+LDIFF_SYM152=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM152
+	.byte 2,35,16,0,7
+	.asciz "System_Threading_WaitHandle"
+
+LDIFF_SYM153=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM153
+LTDIE_22_POINTER:
+
+	.byte 13
+LDIFF_SYM154=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM154
+LTDIE_22_REFERENCE:
+
+	.byte 14
+LDIFF_SYM155=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM155
+LTDIE_21:
+
+	.byte 5
+	.asciz "System_Threading_EventWaitHandle"
+
+	.byte 20,16
+LDIFF_SYM156=LTDIE_22 - Ldebug_info_start
+	.long LDIFF_SYM156
+	.byte 2,35,0,0,7
+	.asciz "System_Threading_EventWaitHandle"
+
+LDIFF_SYM157=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM157
+LTDIE_21_POINTER:
+
+	.byte 13
+LDIFF_SYM158=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM158
+LTDIE_21_REFERENCE:
+
+	.byte 14
+LDIFF_SYM159=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM159
+LTDIE_20:
 
 	.byte 5
 	.asciz "System_Threading_ManualResetEvent"
 
 	.byte 20,16
-LDIFF_SYM191=LTDIE_25 - Ldebug_info_start
-	.long LDIFF_SYM191
+LDIFF_SYM160=LTDIE_21 - Ldebug_info_start
+	.long LDIFF_SYM160
 	.byte 2,35,0,0,7
 	.asciz "System_Threading_ManualResetEvent"
 
-LDIFF_SYM192=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM192
-LTDIE_24_POINTER:
+LDIFF_SYM161=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM161
+LTDIE_20_POINTER:
 
 	.byte 13
-LDIFF_SYM193=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM193
-LTDIE_24_REFERENCE:
+LDIFF_SYM162=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM162
+LTDIE_20_REFERENCE:
 
 	.byte 14
-LDIFF_SYM194=LTDIE_24 - Ldebug_info_start
-	.long LDIFF_SYM194
-LTDIE_23:
+LDIFF_SYM163=LTDIE_20 - Ldebug_info_start
+	.long LDIFF_SYM163
+LTDIE_19:
 
 	.byte 5
 	.asciz "System_Threading_ManualResetEventSlim"
 
 	.byte 28,16
-LDIFF_SYM195=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM195
+LDIFF_SYM164=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM164
 	.byte 2,35,0,6
 	.asciz "spinCount"
 
-LDIFF_SYM196=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM196
+LDIFF_SYM165=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM165
 	.byte 2,35,12,6
 	.asciz "handle"
 
-LDIFF_SYM197=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM197
+LDIFF_SYM166=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM166
 	.byte 2,35,8,6
 	.asciz "disposed"
 
-LDIFF_SYM198=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM198
+LDIFF_SYM167=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM167
 	.byte 2,35,16,6
 	.asciz "used"
 
-LDIFF_SYM199=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM199
+LDIFF_SYM168=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM168
 	.byte 2,35,20,6
 	.asciz "state"
 
-LDIFF_SYM200=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM200
+LDIFF_SYM169=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM169
 	.byte 2,35,24,0,7
 	.asciz "System_Threading_ManualResetEventSlim"
 
-LDIFF_SYM201=LTDIE_23 - Ldebug_info_start
-	.long LDIFF_SYM201
-LTDIE_23_POINTER:
+LDIFF_SYM170=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM170
+LTDIE_19_POINTER:
 
 	.byte 13
-LDIFF_SYM202=LTDIE_23 - Ldebug_info_start
-	.long LDIFF_SYM202
-LTDIE_23_REFERENCE:
+LDIFF_SYM171=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM171
+LTDIE_19_REFERENCE:
 
 	.byte 14
-LDIFF_SYM203=LTDIE_23 - Ldebug_info_start
-	.long LDIFF_SYM203
-LTDIE_22:
+LDIFF_SYM172=LTDIE_19 - Ldebug_info_start
+	.long LDIFF_SYM172
+LTDIE_17:
 
 	.byte 5
 	.asciz "System_Threading_CountdownEvent"
 
 	.byte 20,16
-LDIFF_SYM204=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM204
+LDIFF_SYM173=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM173
 	.byte 2,35,0,6
 	.asciz "initialCount"
 
-LDIFF_SYM205=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM205
+LDIFF_SYM174=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM174
 	.byte 2,35,12,6
 	.asciz "initial"
 
-LDIFF_SYM206=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM206
+LDIFF_SYM175=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM175
 	.byte 2,35,16,6
 	.asciz "evt"
 
-LDIFF_SYM207=LTDIE_23_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM207
+LDIFF_SYM176=LTDIE_19_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM176
 	.byte 2,35,8,0,7
 	.asciz "System_Threading_CountdownEvent"
 
-LDIFF_SYM208=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM208
-LTDIE_22_POINTER:
+LDIFF_SYM177=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM177
+LTDIE_17_POINTER:
 
 	.byte 13
-LDIFF_SYM209=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM209
-LTDIE_22_REFERENCE:
+LDIFF_SYM178=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM178
+LTDIE_17_REFERENCE:
 
 	.byte 14
-LDIFF_SYM210=LTDIE_22 - Ldebug_info_start
-	.long LDIFF_SYM210
-LTDIE_32:
+LDIFF_SYM179=LTDIE_17 - Ldebug_info_start
+	.long LDIFF_SYM179
+LTDIE_28:
 
 	.byte 8
 	.asciz "System_Threading_Tasks_TaskCreationOptions"
 
 	.byte 4
-LDIFF_SYM211=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM211
+LDIFF_SYM180=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM180
 	.byte 9
 	.asciz "None"
 
@@ -2726,47 +2562,47 @@ LDIFF_SYM211=LDIE_I4 - Ldebug_info_start
 	.byte 16,0,7
 	.asciz "System_Threading_Tasks_TaskCreationOptions"
 
-LDIFF_SYM212=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM212
-LTDIE_32_POINTER:
+LDIFF_SYM181=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM181
+LTDIE_28_POINTER:
 
 	.byte 13
-LDIFF_SYM213=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM213
-LTDIE_32_REFERENCE:
+LDIFF_SYM182=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM182
+LTDIE_28_REFERENCE:
 
 	.byte 14
-LDIFF_SYM214=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM214
-LTDIE_33:
+LDIFF_SYM183=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM183
+LTDIE_29:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_TaskScheduler"
 
 	.byte 12,16
-LDIFF_SYM215=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM215
+LDIFF_SYM184=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM184
 	.byte 2,35,0,6
 	.asciz "id"
 
-LDIFF_SYM216=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM216
+LDIFF_SYM185=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM185
 	.byte 2,35,8,0,7
 	.asciz "System_Threading_Tasks_TaskScheduler"
 
-LDIFF_SYM217=LTDIE_33 - Ldebug_info_start
-	.long LDIFF_SYM217
-LTDIE_33_POINTER:
+LDIFF_SYM186=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM186
+LTDIE_29_POINTER:
 
 	.byte 13
-LDIFF_SYM218=LTDIE_33 - Ldebug_info_start
-	.long LDIFF_SYM218
-LTDIE_33_REFERENCE:
+LDIFF_SYM187=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM187
+LTDIE_29_REFERENCE:
 
 	.byte 14
-LDIFF_SYM219=LTDIE_33 - Ldebug_info_start
-	.long LDIFF_SYM219
-LTDIE_37:
+LDIFF_SYM188=LTDIE_29 - Ldebug_info_start
+	.long LDIFF_SYM188
+LTDIE_33:
 
 	.byte 17
 	.asciz "System_Collections_IDictionary"
@@ -2774,299 +2610,299 @@ LTDIE_37:
 	.byte 8,7
 	.asciz "System_Collections_IDictionary"
 
-LDIFF_SYM220=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM220
-LTDIE_37_POINTER:
+LDIFF_SYM189=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM189
+LTDIE_33_POINTER:
 
 	.byte 13
-LDIFF_SYM221=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM221
-LTDIE_37_REFERENCE:
+LDIFF_SYM190=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM190
+LTDIE_33_REFERENCE:
 
 	.byte 14
-LDIFF_SYM222=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM222
-LTDIE_36:
+LDIFF_SYM191=LTDIE_33 - Ldebug_info_start
+	.long LDIFF_SYM191
+LTDIE_32:
 
 	.byte 5
 	.asciz "System_Exception"
 
 	.byte 60,16
-LDIFF_SYM223=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM223
+LDIFF_SYM192=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM192
 	.byte 2,35,0,6
 	.asciz "trace_ips"
 
-LDIFF_SYM224=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM224
+LDIFF_SYM193=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM193
 	.byte 2,35,8,6
 	.asciz "inner_exception"
 
-LDIFF_SYM225=LTDIE_36_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM225
+LDIFF_SYM194=LTDIE_32_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM194
 	.byte 2,35,12,6
 	.asciz "message"
 
-LDIFF_SYM226=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM226
+LDIFF_SYM195=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM195
 	.byte 2,35,16,6
 	.asciz "help_link"
 
-LDIFF_SYM227=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM227
+LDIFF_SYM196=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM196
 	.byte 2,35,20,6
 	.asciz "class_name"
 
-LDIFF_SYM228=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM228
+LDIFF_SYM197=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM197
 	.byte 2,35,24,6
 	.asciz "stack_trace"
 
-LDIFF_SYM229=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM229
+LDIFF_SYM198=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM198
 	.byte 2,35,28,6
 	.asciz "_remoteStackTraceString"
 
-LDIFF_SYM230=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM230
+LDIFF_SYM199=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM199
 	.byte 2,35,32,6
 	.asciz "remote_stack_index"
 
-LDIFF_SYM231=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM231
+LDIFF_SYM200=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM200
 	.byte 2,35,36,6
 	.asciz "hresult"
 
-LDIFF_SYM232=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM232
+LDIFF_SYM201=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM201
 	.byte 2,35,40,6
 	.asciz "source"
 
-LDIFF_SYM233=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM233
+LDIFF_SYM202=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM202
 	.byte 2,35,44,6
 	.asciz "_data"
 
-LDIFF_SYM234=LTDIE_37_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM234
+LDIFF_SYM203=LTDIE_33_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM203
 	.byte 2,35,48,6
 	.asciz "captured_traces"
 
-LDIFF_SYM235=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM235
+LDIFF_SYM204=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM204
 	.byte 2,35,52,6
 	.asciz "native_trace_ips"
 
-LDIFF_SYM236=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM236
+LDIFF_SYM205=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM205
 	.byte 2,35,56,0,7
 	.asciz "System_Exception"
 
-LDIFF_SYM237=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM237
-LTDIE_36_POINTER:
+LDIFF_SYM206=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM206
+LTDIE_32_POINTER:
 
 	.byte 13
-LDIFF_SYM238=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM238
-LTDIE_36_REFERENCE:
+LDIFF_SYM207=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM207
+LTDIE_32_REFERENCE:
 
 	.byte 14
-LDIFF_SYM239=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM239
-LTDIE_38:
+LDIFF_SYM208=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM208
+LTDIE_34:
 
 	.byte 5
 	.asciz "System_Collections_Generic_List`1"
 
 	.byte 20,16
-LDIFF_SYM240=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM240
+LDIFF_SYM209=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM209
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM241=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM241
+LDIFF_SYM210=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM210
 	.byte 2,35,8,6
 	.asciz "_size"
 
-LDIFF_SYM242=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM242
+LDIFF_SYM211=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM211
 	.byte 2,35,12,6
 	.asciz "_version"
 
-LDIFF_SYM243=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM243
+LDIFF_SYM212=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM212
 	.byte 2,35,16,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM244=LTDIE_38 - Ldebug_info_start
-	.long LDIFF_SYM244
-LTDIE_38_POINTER:
+LDIFF_SYM213=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM213
+LTDIE_34_POINTER:
 
 	.byte 13
-LDIFF_SYM245=LTDIE_38 - Ldebug_info_start
-	.long LDIFF_SYM245
-LTDIE_38_REFERENCE:
+LDIFF_SYM214=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM214
+LTDIE_34_REFERENCE:
 
 	.byte 14
-LDIFF_SYM246=LTDIE_38 - Ldebug_info_start
-	.long LDIFF_SYM246
-LTDIE_35:
+LDIFF_SYM215=LTDIE_34 - Ldebug_info_start
+	.long LDIFF_SYM215
+LTDIE_31:
 
 	.byte 5
 	.asciz "System_AggregateException"
 
 	.byte 64,16
-LDIFF_SYM247=LTDIE_36 - Ldebug_info_start
-	.long LDIFF_SYM247
+LDIFF_SYM216=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM216
 	.byte 2,35,0,6
 	.asciz "innerExceptions"
 
-LDIFF_SYM248=LTDIE_38_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM248
+LDIFF_SYM217=LTDIE_34_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM217
 	.byte 2,35,60,0,7
 	.asciz "System_AggregateException"
 
-LDIFF_SYM249=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM249
-LTDIE_35_POINTER:
+LDIFF_SYM218=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM218
+LTDIE_31_POINTER:
 
 	.byte 13
-LDIFF_SYM250=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM250
-LTDIE_35_REFERENCE:
+LDIFF_SYM219=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM219
+LTDIE_31_REFERENCE:
 
 	.byte 14
-LDIFF_SYM251=LTDIE_35 - Ldebug_info_start
-	.long LDIFF_SYM251
-LTDIE_40:
+LDIFF_SYM220=LTDIE_31 - Ldebug_info_start
+	.long LDIFF_SYM220
+LTDIE_36:
 
 	.byte 5
 	.asciz "_Node"
 
 	.byte 16,16
-LDIFF_SYM252=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM252
+LDIFF_SYM221=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM221
 	.byte 2,35,0,6
 	.asciz "Value"
 
-LDIFF_SYM253=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM253
+LDIFF_SYM222=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM222
 	.byte 2,35,8,6
 	.asciz "Next"
 
-LDIFF_SYM254=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM254
+LDIFF_SYM223=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM223
 	.byte 2,35,12,0,7
 	.asciz "_Node"
 
-LDIFF_SYM255=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM255
-LTDIE_40_POINTER:
+LDIFF_SYM224=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM224
+LTDIE_36_POINTER:
 
 	.byte 13
-LDIFF_SYM256=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM256
-LTDIE_40_REFERENCE:
+LDIFF_SYM225=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM225
+LTDIE_36_REFERENCE:
 
 	.byte 14
-LDIFF_SYM257=LTDIE_40 - Ldebug_info_start
-	.long LDIFF_SYM257
-LTDIE_39:
+LDIFF_SYM226=LTDIE_36 - Ldebug_info_start
+	.long LDIFF_SYM226
+LTDIE_35:
 
 	.byte 5
 	.asciz "System_Collections_Concurrent_ConcurrentQueue`1"
 
 	.byte 24,16
-LDIFF_SYM258=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM258
+LDIFF_SYM227=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM227
 	.byte 2,35,0,6
 	.asciz "head"
 
-LDIFF_SYM259=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM259
+LDIFF_SYM228=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM228
 	.byte 2,35,8,6
 	.asciz "tail"
 
-LDIFF_SYM260=LTDIE_40_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM260
+LDIFF_SYM229=LTDIE_36_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM229
 	.byte 2,35,12,6
 	.asciz "count"
 
-LDIFF_SYM261=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM261
+LDIFF_SYM230=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM230
 	.byte 2,35,20,6
 	.asciz "syncRoot"
 
-LDIFF_SYM262=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM262
+LDIFF_SYM231=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM231
 	.byte 2,35,16,0,7
 	.asciz "System_Collections_Concurrent_ConcurrentQueue`1"
 
-LDIFF_SYM263=LTDIE_39 - Ldebug_info_start
-	.long LDIFF_SYM263
-LTDIE_39_POINTER:
+LDIFF_SYM232=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM232
+LTDIE_35_POINTER:
 
 	.byte 13
-LDIFF_SYM264=LTDIE_39 - Ldebug_info_start
-	.long LDIFF_SYM264
-LTDIE_39_REFERENCE:
+LDIFF_SYM233=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM233
+LTDIE_35_REFERENCE:
 
 	.byte 14
-LDIFF_SYM265=LTDIE_39 - Ldebug_info_start
-	.long LDIFF_SYM265
-LTDIE_34:
+LDIFF_SYM234=LTDIE_35 - Ldebug_info_start
+	.long LDIFF_SYM234
+LTDIE_30:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_TaskExceptionSlot"
 
 	.byte 24,16
-LDIFF_SYM266=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM266
+LDIFF_SYM235=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM235
 	.byte 2,35,0,6
 	.asciz "Exception"
 
-LDIFF_SYM267=LTDIE_35_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM267
+LDIFF_SYM236=LTDIE_31_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM236
 	.byte 2,35,8,6
 	.asciz "Observed"
 
-LDIFF_SYM268=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM268
+LDIFF_SYM237=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM237
 	.byte 2,35,20,6
 	.asciz "ChildExceptions"
 
-LDIFF_SYM269=LTDIE_39_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM269
+LDIFF_SYM238=LTDIE_35_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM238
 	.byte 2,35,12,6
 	.asciz "parent"
 
-LDIFF_SYM270=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM270
+LDIFF_SYM239=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM239
 	.byte 2,35,16,0,7
 	.asciz "System_Threading_Tasks_TaskExceptionSlot"
 
-LDIFF_SYM271=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM271
-LTDIE_34_POINTER:
+LDIFF_SYM240=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM240
+LTDIE_30_POINTER:
 
 	.byte 13
-LDIFF_SYM272=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM272
-LTDIE_34_REFERENCE:
+LDIFF_SYM241=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM241
+LTDIE_30_REFERENCE:
 
 	.byte 14
-LDIFF_SYM273=LTDIE_34 - Ldebug_info_start
-	.long LDIFF_SYM273
-LTDIE_41:
+LDIFF_SYM242=LTDIE_30 - Ldebug_info_start
+	.long LDIFF_SYM242
+LTDIE_37:
 
 	.byte 8
 	.asciz "System_Threading_Tasks_TaskStatus"
 
 	.byte 4
-LDIFF_SYM274=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM274
+LDIFF_SYM243=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM243
 	.byte 9
 	.asciz "Created"
 
@@ -3094,169 +2930,355 @@ LDIFF_SYM274=LDIE_I4 - Ldebug_info_start
 	.byte 7,0,7
 	.asciz "System_Threading_Tasks_TaskStatus"
 
-LDIFF_SYM275=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM275
-LTDIE_41_POINTER:
+LDIFF_SYM244=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM244
+LTDIE_37_POINTER:
 
 	.byte 13
-LDIFF_SYM276=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM276
-LTDIE_41_REFERENCE:
+LDIFF_SYM245=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM245
+LTDIE_37_REFERENCE:
 
 	.byte 14
-LDIFF_SYM277=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM277
-LTDIE_42:
+LDIFF_SYM246=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM246
+LTDIE_38:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_TaskActionInvoker"
 
 	.byte 8,16
-LDIFF_SYM278=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM278
+LDIFF_SYM247=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM247
 	.byte 2,35,0,0,7
 	.asciz "System_Threading_Tasks_TaskActionInvoker"
 
-LDIFF_SYM279=LTDIE_42 - Ldebug_info_start
-	.long LDIFF_SYM279
-LTDIE_42_POINTER:
+LDIFF_SYM248=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM248
+LTDIE_38_POINTER:
 
 	.byte 13
-LDIFF_SYM280=LTDIE_42 - Ldebug_info_start
-	.long LDIFF_SYM280
-LTDIE_42_REFERENCE:
+LDIFF_SYM249=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM249
+LTDIE_38_REFERENCE:
 
 	.byte 14
-LDIFF_SYM281=LTDIE_42 - Ldebug_info_start
-	.long LDIFF_SYM281
-LTDIE_21:
+LDIFF_SYM250=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM250
+LTDIE_16:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task"
 
 	.byte 80,16
-LDIFF_SYM282=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM282
+LDIFF_SYM251=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM251
 	.byte 2,35,0,6
 	.asciz "parent"
 
-LDIFF_SYM283=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM283
+LDIFF_SYM252=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM252
 	.byte 2,35,8,6
 	.asciz "contAncestor"
 
-LDIFF_SYM284=LTDIE_21_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM284
+LDIFF_SYM253=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM253
 	.byte 2,35,12,6
 	.asciz "childTasks"
 
-LDIFF_SYM285=LTDIE_22_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM285
+LDIFF_SYM254=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM254
 	.byte 2,35,16,6
 	.asciz "taskId"
 
-LDIFF_SYM286=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM286
+LDIFF_SYM255=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM255
 	.byte 2,35,64,6
 	.asciz "creationOptions"
 
-LDIFF_SYM287=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM287
+LDIFF_SYM256=LTDIE_28 - Ldebug_info_start
+	.long LDIFF_SYM256
 	.byte 2,35,68,6
 	.asciz "scheduler"
 
-LDIFF_SYM288=LTDIE_33_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM288
+LDIFF_SYM257=LTDIE_29_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM257
 	.byte 2,35,20,6
 	.asciz "exSlot"
 
-LDIFF_SYM289=LTDIE_34_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM289
+LDIFF_SYM258=LTDIE_30_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM258
 	.byte 2,35,24,6
 	.asciz "wait_handle"
 
-LDIFF_SYM290=LTDIE_24_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM290
+LDIFF_SYM259=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM259
 	.byte 2,35,28,6
 	.asciz "status"
 
-LDIFF_SYM291=LTDIE_41 - Ldebug_info_start
-	.long LDIFF_SYM291
+LDIFF_SYM260=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM260
 	.byte 2,35,72,6
 	.asciz "invoker"
 
-LDIFF_SYM292=LTDIE_42_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM292
+LDIFF_SYM261=LTDIE_38_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM261
 	.byte 2,35,32,6
 	.asciz "state"
 
-LDIFF_SYM293=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM293
+LDIFF_SYM262=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM262
 	.byte 2,35,36,6
 	.asciz "executing"
 
-LDIFF_SYM294=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM294
+LDIFF_SYM263=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM263
 	.byte 2,35,76,6
 	.asciz "continuations"
 
-LDIFF_SYM295=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM295
+LDIFF_SYM264=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM264
 	.byte 2,35,40,6
 	.asciz "token"
 
-LDIFF_SYM296=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM296
+LDIFF_SYM265=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM265
 	.byte 2,35,48,6
 	.asciz "cancellationRegistration"
 
-LDIFF_SYM297=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM297
+LDIFF_SYM266=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM266
 	.byte 2,35,52,0,7
 	.asciz "System_Threading_Tasks_Task"
 
-LDIFF_SYM298=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM298
-LTDIE_21_POINTER:
+LDIFF_SYM267=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM267
+LTDIE_16_POINTER:
 
 	.byte 13
-LDIFF_SYM299=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM299
-LTDIE_21_REFERENCE:
+LDIFF_SYM268=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM268
+LTDIE_16_REFERENCE:
 
 	.byte 14
-LDIFF_SYM300=LTDIE_21 - Ldebug_info_start
-	.long LDIFF_SYM300
+LDIFF_SYM269=LTDIE_16 - Ldebug_info_start
+	.long LDIFF_SYM269
 	.byte 2
 	.asciz "Rebels_Timer_2.Rebels_Timer_2ViewController:startTimer"
 	.long _Rebels_Timer_2_Rebels_Timer_2ViewController_startTimer
-	.long Lme_a
+	.long Lme_9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM301=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM301
+LDIFF_SYM270=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM270
 	.byte 2,125,0,11
 	.asciz "makeTimerGo"
 
-LDIFF_SYM302=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM302
+LDIFF_SYM271=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM271
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM303=Lfde10_end - Lfde10_start
-	.long LDIFF_SYM303
-Lfde10_start:
+LDIFF_SYM272=Lfde9_end - Lfde9_start
+	.long LDIFF_SYM272
+Lfde9_start:
 
 	.long 0
 	.align 2
 	.long _Rebels_Timer_2_Rebels_Timer_2ViewController_startTimer
 
-LDIFF_SYM304=Lme_a - _Rebels_Timer_2_Rebels_Timer_2ViewController_startTimer
-	.long LDIFF_SYM304
+LDIFF_SYM273=Lme_9 - _Rebels_Timer_2_Rebels_Timer_2ViewController_startTimer
+	.long LDIFF_SYM273
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,32
+	.align 2
+Lfde9_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_40:
+
+	.byte 5
+	.asciz "System_UInt32"
+
+	.byte 12,16
+LDIFF_SYM274=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM274
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM275=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM275
+	.byte 2,35,8,0,7
+	.asciz "System_UInt32"
+
+LDIFF_SYM276=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM276
+LTDIE_40_POINTER:
+
+	.byte 13
+LDIFF_SYM277=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM277
+LTDIE_40_REFERENCE:
+
+	.byte 14
+LDIFF_SYM278=LTDIE_40 - Ldebug_info_start
+	.long LDIFF_SYM278
+LTDIE_39:
+
+	.byte 5
+	.asciz "System_Random"
+
+	.byte 24,16
+LDIFF_SYM279=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM279
+	.byte 2,35,0,6
+	.asciz "x"
+
+LDIFF_SYM280=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM280
+	.byte 2,35,8,6
+	.asciz "y"
+
+LDIFF_SYM281=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM281
+	.byte 2,35,12,6
+	.asciz "z"
+
+LDIFF_SYM282=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM282
+	.byte 2,35,16,6
+	.asciz "c"
+
+LDIFF_SYM283=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM283
+	.byte 2,35,20,0,7
+	.asciz "System_Random"
+
+LDIFF_SYM284=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM284
+LTDIE_39_POINTER:
+
+	.byte 13
+LDIFF_SYM285=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM285
+LTDIE_39_REFERENCE:
+
+	.byte 14
+LDIFF_SYM286=LTDIE_39 - Ldebug_info_start
+	.long LDIFF_SYM286
+LTDIE_42:
+
+	.byte 5
+	.asciz "System_Int64"
+
+	.byte 16,16
+LDIFF_SYM287=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM287
+	.byte 2,35,0,6
+	.asciz "m_value"
+
+LDIFF_SYM288=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM288
+	.byte 2,35,8,0,7
+	.asciz "System_Int64"
+
+LDIFF_SYM289=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM289
+LTDIE_42_POINTER:
+
+	.byte 13
+LDIFF_SYM290=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM290
+LTDIE_42_REFERENCE:
+
+	.byte 14
+LDIFF_SYM291=LTDIE_42 - Ldebug_info_start
+	.long LDIFF_SYM291
+LTDIE_41:
+
+	.byte 5
+	.asciz "System_Diagnostics_Stopwatch"
+
+	.byte 28,16
+LDIFF_SYM292=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM292
+	.byte 2,35,0,6
+	.asciz "elapsed"
+
+LDIFF_SYM293=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM293
+	.byte 2,35,8,6
+	.asciz "started"
+
+LDIFF_SYM294=LDIE_I8 - Ldebug_info_start
+	.long LDIFF_SYM294
+	.byte 2,35,16,6
+	.asciz "is_running"
+
+LDIFF_SYM295=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM295
+	.byte 2,35,24,0,7
+	.asciz "System_Diagnostics_Stopwatch"
+
+LDIFF_SYM296=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM296
+LTDIE_41_POINTER:
+
+	.byte 13
+LDIFF_SYM297=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM297
+LTDIE_41_REFERENCE:
+
+	.byte 14
+LDIFF_SYM298=LTDIE_41 - Ldebug_info_start
+	.long LDIFF_SYM298
+	.byte 2
+	.asciz "Rebels_Timer_2.Rebels_Timer_2ViewController:runTimer"
+	.long _Rebels_Timer_2_Rebels_Timer_2ViewController_runTimer
+	.long Lme_a
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM299=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM299
+	.byte 2,125,8,11
+	.asciz "randTime"
+
+LDIFF_SYM300=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM300
+	.byte 0,11
+	.asciz "timeAllowed"
+
+LDIFF_SYM301=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM301
+	.byte 1,86,11
+	.asciz "SW"
+
+LDIFF_SYM302=LTDIE_41_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM302
+	.byte 1,85,11
+	.asciz "h"
+
+LDIFF_SYM303=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM303
+	.byte 1,84,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM304=Lfde10_end - Lfde10_start
+	.long LDIFF_SYM304
+Lfde10_start:
+
+	.long 0
+	.align 2
+	.long _Rebels_Timer_2_Rebels_Timer_2ViewController_runTimer
+
+LDIFF_SYM305=Lme_a - _Rebels_Timer_2_Rebels_Timer_2ViewController_runTimer
+	.long LDIFF_SYM305
+	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,56
 	.align 2
 Lfde10_end:
 
@@ -3270,27 +3292,27 @@ Lfde10_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM305=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM305
+LDIFF_SYM306=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM306
 	.byte 1,90,3
 	.asciz "sender"
 
-LDIFF_SYM306=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM306
+LDIFF_SYM307=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM307
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM307=Lfde11_end - Lfde11_start
-	.long LDIFF_SYM307
+LDIFF_SYM308=Lfde11_end - Lfde11_start
+	.long LDIFF_SYM308
 Lfde11_start:
 
 	.long 0
 	.align 2
 	.long _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedB_MonoTouch_UIKit_UIButton
 
-LDIFF_SYM308=Lme_b - _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedB_MonoTouch_UIKit_UIButton
-	.long LDIFF_SYM308
+LDIFF_SYM309=Lme_b - _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedB_MonoTouch_UIKit_UIButton
+	.long LDIFF_SYM309
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde11_end:
@@ -3305,27 +3327,27 @@ Lfde11_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM309=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM309
+LDIFF_SYM310=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM310
 	.byte 1,90,3
 	.asciz "sender"
 
-LDIFF_SYM310=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM310
+LDIFF_SYM311=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM311
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM311=Lfde12_end - Lfde12_start
-	.long LDIFF_SYM311
+LDIFF_SYM312=Lfde12_end - Lfde12_start
+	.long LDIFF_SYM312
 Lfde12_start:
 
 	.long 0
 	.align 2
 	.long _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedC_MonoTouch_UIKit_UIButton
 
-LDIFF_SYM312=Lme_c - _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedC_MonoTouch_UIKit_UIButton
-	.long LDIFF_SYM312
+LDIFF_SYM313=Lme_c - _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedC_MonoTouch_UIKit_UIButton
+	.long LDIFF_SYM313
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde12_end:
@@ -3340,27 +3362,27 @@ Lfde12_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM313=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM313
+LDIFF_SYM314=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM314
 	.byte 1,90,3
 	.asciz "sender"
 
-LDIFF_SYM314=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM314
+LDIFF_SYM315=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM315
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM315=Lfde13_end - Lfde13_start
-	.long LDIFF_SYM315
+LDIFF_SYM316=Lfde13_end - Lfde13_start
+	.long LDIFF_SYM316
 Lfde13_start:
 
 	.long 0
 	.align 2
 	.long _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedD_MonoTouch_UIKit_UIButton
 
-LDIFF_SYM316=Lme_d - _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedD_MonoTouch_UIKit_UIButton
-	.long LDIFF_SYM316
+LDIFF_SYM317=Lme_d - _Rebels_Timer_2_Rebels_Timer_2ViewController_pressedD_MonoTouch_UIKit_UIButton
+	.long LDIFF_SYM317
 	.byte 12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24
 	.align 2
 Lfde13_end:
@@ -3375,42 +3397,42 @@ Lfde13_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM317=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM317
+LDIFF_SYM318=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM318
 	.byte 1,86,3
 	.asciz "buttonInput"
 
-LDIFF_SYM318=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM318
+LDIFF_SYM319=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM319
 	.byte 2,125,0,11
 	.asciz "element"
 
-LDIFF_SYM319=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM319
+LDIFF_SYM320=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM320
 	.byte 1,85,11
 	.asciz "V_1"
 
-LDIFF_SYM320=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM320
+LDIFF_SYM321=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM321
 	.byte 1,84,11
 	.asciz "V_2"
 
-LDIFF_SYM321=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM321
+LDIFF_SYM322=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM322
 	.byte 1,91,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM322=Lfde14_end - Lfde14_start
-	.long LDIFF_SYM322
+LDIFF_SYM323=Lfde14_end - Lfde14_start
+	.long LDIFF_SYM323
 Lfde14_start:
 
 	.long 0
 	.align 2
 	.long _Rebels_Timer_2_Rebels_Timer_2ViewController_userBuildCode_string
 
-LDIFF_SYM323=Lme_e - _Rebels_Timer_2_Rebels_Timer_2ViewController_userBuildCode_string
-	.long LDIFF_SYM323
+LDIFF_SYM324=Lme_e - _Rebels_Timer_2_Rebels_Timer_2ViewController_userBuildCode_string
+	.long LDIFF_SYM324
 	.byte 12,13,0,72,14,8,135,2,68,14,28,132,7,133,6,134,5,136,4,139,3,142,1,68,14,40
 	.align 2
 Lfde14_end:
@@ -3425,42 +3447,42 @@ Lfde14_end:
 	.byte 2,118,16,3
 	.asciz "array"
 
-LDIFF_SYM324=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM324
+LDIFF_SYM325=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM325
 	.byte 1,90,11
 	.asciz "random"
 
-LDIFF_SYM325=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM325
+LDIFF_SYM326=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM326
 	.byte 1,84,11
 	.asciz "i"
 
-LDIFF_SYM326=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM326
+LDIFF_SYM327=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM327
 	.byte 1,91,11
 	.asciz "j"
 
-LDIFF_SYM327=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM327
+LDIFF_SYM328=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM328
 	.byte 1,86,11
 	.asciz "tmp"
 
-LDIFF_SYM328=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM328
+LDIFF_SYM329=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM329
 	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM329=Lfde15_end - Lfde15_start
-	.long LDIFF_SYM329
+LDIFF_SYM330=Lfde15_end - Lfde15_start
+	.long LDIFF_SYM330
 Lfde15_start:
 
 	.long 0
 	.align 2
 	.long _Rebels_Timer_2_Rebels_Timer_2ViewController_Shuffle_T_T__
 
-LDIFF_SYM330=Lme_f - _Rebels_Timer_2_Rebels_Timer_2ViewController_Shuffle_T_T__
-	.long LDIFF_SYM330
+LDIFF_SYM331=Lme_f - _Rebels_Timer_2_Rebels_Timer_2ViewController_Shuffle_T_T__
+	.long LDIFF_SYM331
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,40
 	.align 2
 Lfde15_end:
@@ -3475,47 +3497,47 @@ Lfde15_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM331=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM331
+LDIFF_SYM332=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM332
 	.byte 2,125,0,11
 	.asciz "array"
 
-LDIFF_SYM332=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM332
+LDIFF_SYM333=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM333
 	.byte 1,84,11
 	.asciz "vAnswersIndexes"
 
-LDIFF_SYM333=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM333
+LDIFF_SYM334=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM334
 	.byte 1,91,11
 	.asciz "i"
 
-LDIFF_SYM334=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM334
+LDIFF_SYM335=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM335
 	.byte 1,90,11
 	.asciz "x"
 
-LDIFF_SYM335=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM335
+LDIFF_SYM336=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM336
 	.byte 1,86,11
 	.asciz "p"
 
-LDIFF_SYM336=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM336
+LDIFF_SYM337=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM337
 	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM337=Lfde16_end - Lfde16_start
-	.long LDIFF_SYM337
+LDIFF_SYM338=Lfde16_end - Lfde16_start
+	.long LDIFF_SYM338
 Lfde16_start:
 
 	.long 0
 	.align 2
 	.long _Rebels_Timer_2_Rebels_Timer_2ViewController_iniPossibleAnswers
 
-LDIFF_SYM338=Lme_10 - _Rebels_Timer_2_Rebels_Timer_2ViewController_iniPossibleAnswers
-	.long LDIFF_SYM338
+LDIFF_SYM339=Lme_10 - _Rebels_Timer_2_Rebels_Timer_2ViewController_iniPossibleAnswers
+	.long LDIFF_SYM339
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48
 	.align 2
 Lfde16_end:
@@ -3530,27 +3552,27 @@ Lfde16_end:
 	.byte 2,118,16,3
 	.asciz "file"
 
-LDIFF_SYM339=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM339
+LDIFF_SYM340=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM340
 	.byte 2,125,0,11
 	.asciz "imDone"
 
-LDIFF_SYM340=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM340
+LDIFF_SYM341=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM341
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM341=Lfde17_end - Lfde17_start
-	.long LDIFF_SYM341
+LDIFF_SYM342=Lfde17_end - Lfde17_start
+	.long LDIFF_SYM342
 Lfde17_start:
 
 	.long 0
 	.align 2
 	.long _Rebels_Timer_2_Rebels_Timer_2ViewController_playMusic_string
 
-LDIFF_SYM342=Lme_11 - _Rebels_Timer_2_Rebels_Timer_2ViewController_playMusic_string
-	.long LDIFF_SYM342
+LDIFF_SYM343=Lme_11 - _Rebels_Timer_2_Rebels_Timer_2ViewController_playMusic_string
+	.long LDIFF_SYM343
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde17_end:
@@ -3565,22 +3587,22 @@ Lfde17_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM343=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM343
+LDIFF_SYM344=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM344
 	.byte 0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM344=Lfde18_end - Lfde18_start
-	.long LDIFF_SYM344
+LDIFF_SYM345=Lfde18_end - Lfde18_start
+	.long LDIFF_SYM345
 Lfde18_start:
 
 	.long 0
 	.align 2
 	.long _Rebels_Timer_2_Rebels_Timer_2ViewController_ReleaseDesignerOutlets
 
-LDIFF_SYM345=Lme_12 - _Rebels_Timer_2_Rebels_Timer_2ViewController_ReleaseDesignerOutlets
-	.long LDIFF_SYM345
+LDIFF_SYM346=Lme_12 - _Rebels_Timer_2_Rebels_Timer_2ViewController_ReleaseDesignerOutlets
+	.long LDIFF_SYM346
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde18_end:
@@ -3596,16 +3618,16 @@ Lfde18_end:
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM346=Lfde19_end - Lfde19_start
-	.long LDIFF_SYM346
+LDIFF_SYM347=Lfde19_end - Lfde19_start
+	.long LDIFF_SYM347
 Lfde19_start:
 
 	.long 0
 	.align 2
 	.long _Rebels_Timer_2_Rebels_Timer_2ViewController__cctor
 
-LDIFF_SYM347=Lme_13 - _Rebels_Timer_2_Rebels_Timer_2ViewController__cctor
-	.long LDIFF_SYM347
+LDIFF_SYM348=Lme_13 - _Rebels_Timer_2_Rebels_Timer_2ViewController__cctor
+	.long LDIFF_SYM348
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde19_end:
@@ -3620,22 +3642,22 @@ Lfde19_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM348=LTDIE_10_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM348
+LDIFF_SYM349=LTDIE_10_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM349
 	.byte 2,125,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM349=Lfde20_end - Lfde20_start
-	.long LDIFF_SYM349
+LDIFF_SYM350=Lfde20_end - Lfde20_start
+	.long LDIFF_SYM350
 Lfde20_start:
 
 	.long 0
 	.align 2
 	.long _Rebels_Timer_2_Rebels_Timer_2ViewController__startTimerm__0
 
-LDIFF_SYM350=Lme_14 - _Rebels_Timer_2_Rebels_Timer_2ViewController__startTimerm__0
-	.long LDIFF_SYM350
+LDIFF_SYM351=Lme_14 - _Rebels_Timer_2_Rebels_Timer_2ViewController__startTimerm__0
+	.long LDIFF_SYM351
 	.byte 12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24
 	.align 2
 Lfde20_end:
@@ -3650,42 +3672,42 @@ Lfde20_end:
 	.byte 2,118,16,3
 	.asciz "array"
 
-LDIFF_SYM351=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM351
+LDIFF_SYM352=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM352
 	.byte 1,90,11
 	.asciz "random"
 
-LDIFF_SYM352=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM352
+LDIFF_SYM353=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM353
 	.byte 2,123,0,11
 	.asciz "i"
 
-LDIFF_SYM353=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM353
+LDIFF_SYM354=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM354
 	.byte 2,123,4,11
 	.asciz "j"
 
-LDIFF_SYM354=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM354
+LDIFF_SYM355=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM355
 	.byte 1,84,11
 	.asciz "tmp"
 
-LDIFF_SYM355=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM355
+LDIFF_SYM356=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM356
 	.byte 1,80,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM356=Lfde21_end - Lfde21_start
-	.long LDIFF_SYM356
+LDIFF_SYM357=Lfde21_end - Lfde21_start
+	.long LDIFF_SYM357
 Lfde21_start:
 
 	.long 0
 	.align 2
 	.long _Rebels_Timer_2_Rebels_Timer_2ViewController_Shuffle___0___0__
 
-LDIFF_SYM357=Lme_16 - _Rebels_Timer_2_Rebels_Timer_2ViewController_Shuffle___0___0__
-	.long LDIFF_SYM357
+LDIFF_SYM358=Lme_16 - _Rebels_Timer_2_Rebels_Timer_2ViewController_Shuffle___0___0__
+	.long LDIFF_SYM358
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1,68,14,48,68,13,11
 	.align 2
 Lfde21_end:
@@ -3700,42 +3722,42 @@ Lfde21_end:
 	.byte 2,118,16,3
 	.asciz "array"
 
-LDIFF_SYM358=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM358
+LDIFF_SYM359=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM359
 	.byte 1,90,11
 	.asciz "random"
 
-LDIFF_SYM359=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM359
+LDIFF_SYM360=LTDIE_39_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM360
 	.byte 1,84,11
 	.asciz "i"
 
-LDIFF_SYM360=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM360
+LDIFF_SYM361=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM361
 	.byte 1,91,11
 	.asciz "j"
 
-LDIFF_SYM361=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM361
+LDIFF_SYM362=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM362
 	.byte 1,86,11
 	.asciz "tmp"
 
-LDIFF_SYM362=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM362
+LDIFF_SYM363=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM363
 	.byte 1,85,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM363=Lfde22_end - Lfde22_start
-	.long LDIFF_SYM363
+LDIFF_SYM364=Lfde22_end - Lfde22_start
+	.long LDIFF_SYM364
 Lfde22_start:
 
 	.long 0
 	.align 2
 	.long _Rebels_Timer_2_Rebels_Timer_2ViewController_Shuffle_int_int__
 
-LDIFF_SYM364=Lme_17 - _Rebels_Timer_2_Rebels_Timer_2ViewController_Shuffle_int_int__
-	.long LDIFF_SYM364
+LDIFF_SYM365=Lme_17 - _Rebels_Timer_2_Rebels_Timer_2ViewController_Shuffle_int_int__
+	.long LDIFF_SYM365
 	.byte 12,13,0,72,14,8,135,2,68,14,32,132,8,133,7,134,6,136,5,138,4,139,3,142,1
 	.align 2
 Lfde22_end:
