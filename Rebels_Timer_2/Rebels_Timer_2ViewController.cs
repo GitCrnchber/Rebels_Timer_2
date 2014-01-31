@@ -26,6 +26,7 @@ namespace Rebels_Timer_2
 
 		//INCREMENTER
 		public int correctInc = 0;  
+		public int currentPlayThrough = 0;
 
 
 
@@ -95,12 +96,11 @@ namespace Rebels_Timer_2
 				userBuildCode(A);
 			} else if(isRunning == false){ //if isn't already running ini timer, music, and answer
 				isRunning = true;
-
+				didWin = false;
 				correctInc = 0;
 				iniPossibleAnswers();
 				playMusic(counterMusic[correctInc]); 
 				startTimer(timerArray[correctInc]); //run start timer function
-				didWin = false;
 			}
 
 		}
@@ -133,12 +133,12 @@ namespace Rebels_Timer_2
 
 		public void startTimer(int time)
 		{
-			Task makeTimerGo = new Task(() => runTimer(time)); //Create seperate thread from game logic
+			Task makeTimerGo = new Task(() => runTimer(time, currentPlayThrough)); //Create seperate thread from game logic
 			makeTimerGo.Start ();
 		}
 
 
-		public void runTimer(int time)
+		public void runTimer(int time, int currentRound)
 		{
 			int timeAllowed = time;
 
@@ -148,20 +148,8 @@ namespace Rebels_Timer_2
 			int h = 0;
 			while (SW.ElapsedMilliseconds <= timeAllowed) 
 			{h++;}
-
-			filePlay.Stop ();
-			System.Threading.Thread.Sleep (1000);
-
-			if (didWin == false) {
-				playMusic (loseSound);
-			}
-
-			isRunning = false;
-			compareRandom = null;
-			userInput = "";
 			SW.Stop ();
-			return;
-
+			youLost (currentRound);
 		}
 
 		public void userBuildCode(string buttonInput)
@@ -175,15 +163,14 @@ namespace Rebels_Timer_2
 				{
 					if (element == userInput) {
 						filePlay.Stop();
-						System.Threading.Thread.Sleep (1);
 						vAnswers [i] = "";
 						userInput = "";
 						playMusic (correctSound);
 						correctInc++;
+						currentPlayThrough++;
 						if (correctInc == 4) {
 							System.Threading.Thread.Sleep (1000);
 							playMusic (winSound);
-							didWin = true;
 							isRunning = false;
 						} else {
 							System.Threading.Thread.Sleep (1000);
@@ -194,14 +181,7 @@ namespace Rebels_Timer_2
 					}
 					i++;
 				}
-				filePlay.Pause ();
-				System.Threading.Thread.Sleep (200);
-				filePlay2 = AVAudioPlayer.FromUrl(NSUrl.FromFilename(incorrectSound));
-				filePlay2.Play ();
-				System.Threading.Thread.Sleep (1300);
-
-				filePlay.Play();
-				userInput = "";
+				incorrectInput ();
 			}
 		}
 
@@ -244,13 +224,38 @@ namespace Rebels_Timer_2
 	
 			}
 
+		public void youLost (int currentRound)
+		{
+			if (didWin == false & currentRound == currentPlayThrough)
+			{
+				filePlay.Stop ();
+				System.Threading.Thread.Sleep (500);
+				playMusic (loseSound);
+				isRunning = false;
+				compareRandom = null;
+				userInput = "";
+				return;
+			}
+		}
+
+
+		public void incorrectInput ()
+		{
+			filePlay.Pause ();
+			System.Threading.Thread.Sleep (200);
+			filePlay2 = AVAudioPlayer.FromUrl(NSUrl.FromFilename(incorrectSound));
+			filePlay2.Play ();
+			System.Threading.Thread.Sleep (300);
+			filePlay.Play();
+			userInput = "";
+		}
+
+
 		public static bool playMusic(string file)
 		{
 			bool imDone = false;
 			filePlay = AVAudioPlayer.FromUrl(NSUrl.FromFilename(file));
 			filePlay.Play();
-		
-
 			imDone = true;
 			return imDone;
 		}
