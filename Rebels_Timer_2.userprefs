@@ -1,23 +1,16 @@
 ﻿<Properties>
-<<<<<<< HEAD
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhoneRetina.7.0" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Rebels_Timer_2/Rebels_Timer_2ViewController.cs">
-    <Files>
-      <File FileName="Rebels_Timer_2/Rebels_Timer_2ViewController.cs" Line="54" Column="22" />
-      <File FileName="Rebels_Timer_2/Main.cs" Line="16" Column="1" />
-=======
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Rebels_Timer_2/Rebels_Timer_2ViewController.cs">
-    <Files>
-      <File FileName="Rebels_Timer_2/Rebels_Timer_2ViewController.cs" Line="103" Column="20" />
->>>>>>> 3c280593c8a9a47c82e03a33fef77b074775f310
-    </Files>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>this.vAnswers</Value>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/graphics/Documents/Rebels_Timer_2/Rebels_Timer_2/Rebels_Timer_2ViewController.cs" line="103" column="1" />
-      <Breakpoint file="/Users/graphics/Documents/Rebels_Timer_2/Rebels_Timer_2/Rebels_Timer_2ViewController.cs" line="174" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

@@ -33,7 +33,7 @@ namespace Rebels_Timer_2
 		//ANSWER ARRAYS
 		public string[] pAnswers = new string[24] {"ABC", "ABD", "ACB", "ACD", "ADB", "ADC", "BAC", "BAD", "BCA", "BCD", "BDA", "BDC", "CAB", "CAD", "CBA", "CBD", "CDA",
 			"CDB", "DAB", "DAC", "DBA", "DBC", "DCA", "DCB"};
-		public string[] vAnswers= new string[4];
+		public string[] vAnswers= new string[8];
 		public int[] compareRandom = new int[8];
 
 		//PLAYER VARs
@@ -169,7 +169,7 @@ namespace Rebels_Timer_2
 						correctInc++;
 						currentPlayThrough++;
 						if (correctInc == 4) {
-							System.Threading.Thread.Sleep (1000);
+							System.Threading.Thread.Sleep (2000);
 							playMusic (winSound);
 							isRunning = false;
 						} else {
@@ -206,19 +206,19 @@ namespace Rebels_Timer_2
 					int[] array = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 };
 					Shuffle(array);
 
-				int[] vAnswersIndexes = new int[4];
+					int[] vAnswersIndexes = new int[8];
 
-				for (int i = 0; i < 4; i++)
-						{
-						vAnswersIndexes[i] = array[i];
-						}
+					for (int i = 0; i < 8; i++)
+								{
+								vAnswersIndexes[i] = array[i];
+								}
 
-				for (int x = 0; x < 4; x++) 
-						{
-						int p = vAnswersIndexes[x];
-						vAnswers[x] = pAnswers[p];
+					for (int x = 0; x < 8; x++) 
+								{
+								int p = vAnswersIndexes[x];
+								vAnswers[x] = pAnswers[p];
 
-						}
+								}
 					return vAnswers;
 				} 
 	
@@ -229,7 +229,7 @@ namespace Rebels_Timer_2
 			if (didWin == false & currentRound == currentPlayThrough)
 			{
 				filePlay.Stop ();
-				System.Threading.Thread.Sleep (500);
+				System.Threading.Thread.Sleep (2000);
 				playMusic (loseSound);
 				isRunning = false;
 				compareRandom = null;
