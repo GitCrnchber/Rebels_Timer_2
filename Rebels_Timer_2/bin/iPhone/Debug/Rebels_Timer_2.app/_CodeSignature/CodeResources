@@ -30,19 +30,59 @@
 		</data>
 		<key>Rebels_Timer_2.exe</key>
 		<data>
-		LzmAVwt1gbWjvITqj3EeXrTkl9U=
+		sUqdrjCd64rxbBEDvnv96ZsZv6A=
 		</data>
 		<key>Rebels_Timer_2.exe.mdb</key>
 		<data>
-		W2Nj1mPLPptF0Hb8pgY3pAb9G0E=
+		veO9AcAp8JIHxirxIcNWS5JtFuY=
 		</data>
 		<key>Rebels_Timer_2ViewController.nib</key>
 		<data>
-		29aT6VkC8GUi3nkWNexvKI1/UqQ=
+		yeHtDqBIhlj+2GUyhhzEYA3At3A=
 		</data>
 		<key>Settings.bundle/Root.plist</key>
 		<data>
 		tJPoYRuZMw4WCUT4dYEAqmjMK5M=
+		</data>
+		<key>Sounds/4MCount.mp3</key>
+		<data>
+		bLYVkWUWEwLz4EI41RYXsatLpN8=
+		</data>
+		<key>Sounds/5MCount.mp3</key>
+		<data>
+		aYxCihfVKc3cfhadnCAkvKwSZmU=
+		</data>
+		<key>Sounds/6MCount.mp3</key>
+		<data>
+		RlG+9tNhcHDhWXXoefnKygjM6O4=
+		</data>
+		<key>Sounds/7MCount.mp3</key>
+		<data>
+		TewNst9+3JD3oIZajBsyTRyn2ws=
+		</data>
+		<key>Sounds/LoseTag.mp3</key>
+		<data>
+		QbH2LicIVlKTbfMo17mzBBsJqSs=
+		</data>
+		<key>Sounds/WinTag.mp3</key>
+		<data>
+		1l39Hl+D6oPOMaM8L7akr1Hzoak=
+		</data>
+		<key>Sounds/correct.mp3</key>
+		<data>
+		fdBeTCRRnUOQtxHxK1oAFsfZQl4=
+		</data>
+		<key>Sounds/incorrect.mp3</key>
+		<data>
+		vzXYGleqapogS6dT6RU5yJ6yuG4=
+		</data>
+		<key>Sounds/startup.mp3</key>
+		<data>
+		2+MPoNQVGJpE8ytNcJqxEYNUQZo=
+		</data>
+		<key>Sounds/tap.aif</key>
+		<data>
+		ulOFhD3uyJtwN7oKZwwzk3O6/9g=
 		</data>
 		<key>System.dll</key>
 		<data>
@@ -56,13 +96,17 @@
 		<data>
 		T80oHXXh10Jqy1IC4B4LKlC7mbg=
 		</data>
+		<key>Timer_top.jpg</key>
+		<data>
+		l3yUGqviQwHpsA9ICWmTP4+wqBQ=
+		</data>
 		<key>Win.mp3</key>
 		<data>
 		TpAuazNNUoFdElNQOhWKjB2pomM=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		Tm8OaG5NfDTxmbnzqGy67IxGDq8=
+		+VHLBsKAf/6O2mjY9dNfpLs1cNU=
 		</data>
 		<key>monotouch.dll</key>
 		<data>
@@ -74,11 +118,11 @@
 		</data>
 		<key>mscorlib.dll</key>
 		<data>
-		LLI7EImNP8x306i0WGcIBbjZIaY=
+		yzVNVegY4ybhSNvsBv1mU0Whoc8=
 		</data>
 		<key>mscorlib.dll.mdb</key>
 		<data>
-		oMBwvirg70ePfhdo56hkt35YA3w=
+		G7BO3hKqkFeFFRHKIQpPwF7B8Hk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -109,19 +153,59 @@
 		</data>
 		<key>Rebels_Timer_2.exe</key>
 		<data>
-		LzmAVwt1gbWjvITqj3EeXrTkl9U=
+		sUqdrjCd64rxbBEDvnv96ZsZv6A=
 		</data>
 		<key>Rebels_Timer_2.exe.mdb</key>
 		<data>
-		W2Nj1mPLPptF0Hb8pgY3pAb9G0E=
+		veO9AcAp8JIHxirxIcNWS5JtFuY=
 		</data>
 		<key>Rebels_Timer_2ViewController.nib</key>
 		<data>
-		29aT6VkC8GUi3nkWNexvKI1/UqQ=
+		yeHtDqBIhlj+2GUyhhzEYA3At3A=
 		</data>
 		<key>Settings.bundle/Root.plist</key>
 		<data>
 		tJPoYRuZMw4WCUT4dYEAqmjMK5M=
+		</data>
+		<key>Sounds/4MCount.mp3</key>
+		<data>
+		bLYVkWUWEwLz4EI41RYXsatLpN8=
+		</data>
+		<key>Sounds/5MCount.mp3</key>
+		<data>
+		aYxCihfVKc3cfhadnCAkvKwSZmU=
+		</data>
+		<key>Sounds/6MCount.mp3</key>
+		<data>
+		RlG+9tNhcHDhWXXoefnKygjM6O4=
+		</data>
+		<key>Sounds/7MCount.mp3</key>
+		<data>
+		TewNst9+3JD3oIZajBsyTRyn2ws=
+		</data>
+		<key>Sounds/LoseTag.mp3</key>
+		<data>
+		QbH2LicIVlKTbfMo17mzBBsJqSs=
+		</data>
+		<key>Sounds/WinTag.mp3</key>
+		<data>
+		1l39Hl+D6oPOMaM8L7akr1Hzoak=
+		</data>
+		<key>Sounds/correct.mp3</key>
+		<data>
+		fdBeTCRRnUOQtxHxK1oAFsfZQl4=
+		</data>
+		<key>Sounds/incorrect.mp3</key>
+		<data>
+		vzXYGleqapogS6dT6RU5yJ6yuG4=
+		</data>
+		<key>Sounds/startup.mp3</key>
+		<data>
+		2+MPoNQVGJpE8ytNcJqxEYNUQZo=
+		</data>
+		<key>Sounds/tap.aif</key>
+		<data>
+		ulOFhD3uyJtwN7oKZwwzk3O6/9g=
 		</data>
 		<key>System.dll</key>
 		<data>
@@ -135,13 +219,17 @@
 		<data>
 		T80oHXXh10Jqy1IC4B4LKlC7mbg=
 		</data>
+		<key>Timer_top.jpg</key>
+		<data>
+		l3yUGqviQwHpsA9ICWmTP4+wqBQ=
+		</data>
 		<key>Win.mp3</key>
 		<data>
 		TpAuazNNUoFdElNQOhWKjB2pomM=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		Tm8OaG5NfDTxmbnzqGy67IxGDq8=
+		+VHLBsKAf/6O2mjY9dNfpLs1cNU=
 		</data>
 		<key>monotouch.dll</key>
 		<data>
@@ -153,11 +241,11 @@
 		</data>
 		<key>mscorlib.dll</key>
 		<data>
-		LLI7EImNP8x306i0WGcIBbjZIaY=
+		yzVNVegY4ybhSNvsBv1mU0Whoc8=
 		</data>
 		<key>mscorlib.dll.mdb</key>
 		<data>
-		oMBwvirg70ePfhdo56hkt35YA3w=
+		G7BO3hKqkFeFFRHKIQpPwF7B8Hk=
 		</data>
 	</dict>
 	<key>rules</key>

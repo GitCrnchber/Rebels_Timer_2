@@ -1,1 +1,26 @@
-/Users/graphics/Projects/Rebels_Timer_2/Rebels_Timer_2/bin/iPhone/Release/mtouch.exe|-sdkroot|/Applications/Xcode.app/Contents/Developer|--cache|/Users/graphics/Projects/Rebels_Timer_2/Rebels_Timer_2/obj/iPhone/Release/mtouch-cache|--nomanifest|--nosign|-dev|/Users/graphics/Projects/Rebels_Timer_2/Rebels_Timer_2/bin/iPhone/Release/Rebels_Timer_2.app|-r|/Developer/MonoTouch/usr/lib/mono/2.1/System.dll|-r|/Developer/MonoTouch/usr/lib/mono/2.1/System.Xml.dll|-r|/Developer/MonoTouch/usr/lib/mono/2.1/System.Core.dll|-r|/Developer/MonoTouch/usr/lib/mono/2.1/monotouch.dll|-linksdkonly|-sdk|7.0|-targetver|7.0|--abi=armv7|/Users/graphics/Projects/Rebels_Timer_2/Rebels_Timer_2/bin/iPhone/Release/Rebels_Timer_2.exe
+# Version: 7.0.6.168 (2ed9bc9)
+# [first argument, ignore] # /Users/graphics/Projects/Rebels_Timer_2/Rebels_Timer_2/bin/iPhone/Release/mtouch.exe
+/Developer/MonoTouch/usr/bin/mtouch \
+	-sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--cache \
+	/Users/graphics/Projects/Rebels_Timer_2/Rebels_Timer_2/obj/iPhone/Release/mtouch-cache \
+	--nomanifest \
+	--nosign \
+	-dev \
+	/Users/graphics/Projects/Rebels_Timer_2/Rebels_Timer_2/bin/iPhone/Release/Rebels_Timer_2.app \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Xml.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Core.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/monotouch.dll \
+	-linksdkonly \
+	-sdk \
+	7.0 \
+	-targetver \
+	7.0 \
+	--abi=armv7 \
+	/Users/graphics/Projects/Rebels_Timer_2/Rebels_Timer_2/bin/iPhone/Release/Rebels_Timer_2.exe \

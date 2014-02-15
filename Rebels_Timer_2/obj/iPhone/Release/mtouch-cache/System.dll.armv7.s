@@ -1,3 +1,4 @@
+.subsections_via_symbols
 .section __DWARF, __debug_abbrev,regular,debug
 
 	.byte 1,17,1,37,8,3,8,27,8,19,11,17,1,18,1,16,6,0,0,2,46,1,3,8,17,1,18,1,64,10,0,0
@@ -16,8 +17,8 @@ Ldebug_info_begin:
 	.short 2
 	.long 0
 	.byte 4,1
-	.asciz "Mono AOT Compiler 3.2.3 (mtvs-1.8-series/50d4088 Mon Dec  2 19:53:19 EST 2013)"
-	.asciz "JITted code"
+	.asciz "Mono AOT Compiler 3.2.7 (monotouch-7.0.6-branch/04f55b8 Tue Jan 21 06:20:46 EST 2014)"
+	.asciz "System.dll"
 	.asciz ""
 
 	.byte 2,0,0,0,0,0,0,0,0
@@ -93,32 +94,6 @@ LDIE_SZARRAY:
 	.asciz "object"
 .section __DWARF, __debug_loc,regular,debug
 Ldebug_loc_start:
-.section __DWARF, __debug_line,regular,debug
-Ldebug_line_section_start:
-.section __DWARF, __debug_line,regular,debug
-Ldebug_line_start:
-
-	.long Ldebug_line_end - . -4
-	.short 2
-	.long Ldebug_line_header_end - . -4
-	.byte 1,1,251,14,13,0,1,1,1,1,0,0,0,1,0,0,1
-.section __DWARF, __debug_line,regular,debug
-.section __DWARF, __debug_line,regular,debug
-
-	.byte 0
-.section __DWARF, __debug_line,regular,debug
-	.asciz "xdb.il"
-
-	.byte 0,0,0
-.section __DWARF, __debug_line,regular,debug
-.section __DWARF, __debug_line,regular,debug
-
-	.byte 0
-Ldebug_line_header_end:
-.section __DWARF, __debug_line,regular,debug
-
-	.byte 0,1,1
-Ldebug_line_end:
 .section __DWARF, __debug_frame,regular,debug
 	.align 3
 
@@ -141,8 +116,6 @@ methods:
 	.align 2
 	.no_dead_strip _System_Diagnostics_Stopwatch__ctor
 _System_Diagnostics_Stopwatch__ctor:
-.file 1 "/Developer/MonoTouch/Source/mono/mcs/class/System/System.Diagnostics/Stopwatch.cs"
-.loc 1 55 0
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,12,208,77,226,0,0,141,229,12,208,141,226,0,1,189,232,128,128,189,232
 
@@ -151,12 +124,10 @@ Lme_0:
 	.align 2
 	.no_dead_strip _System_Diagnostics_Stopwatch_get_Elapsed
 _System_Diagnostics_Stopwatch_get_Elapsed:
-.loc 1 65 0
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,60,208,77,226,0,16,141,229,52,0,141,229,0,0,159,229,0,0,0,234
 	.long _mono_aot_System_got - . + 4
 	.byte 0,0,159,231,0,0,208,229,0,0,80,227,32,0,0,10,52,0,157,229
-.loc 1 68 0
 bl _System_Diagnostics_Stopwatch_get_ElapsedTicks
 
 	.byte 8,16,141,229,4,0,141,229,0,0,159,229,0,0,0,234
@@ -171,7 +142,6 @@ bl _p_1
 bl _p_2
 
 	.byte 0,0,157,229,36,16,157,229,0,16,128,229,40,16,157,229,4,16,128,229,12,0,0,234,52,0,157,229
-.loc 1 71 0
 bl _System_Diagnostics_Stopwatch_get_ElapsedTicks
 
 	.byte 32,16,141,229,28,0,141,229,44,0,141,226,28,16,157,229,32,32,157,229
@@ -184,13 +154,11 @@ Lme_1:
 	.align 2
 	.no_dead_strip _System_Diagnostics_Stopwatch_get_ElapsedMilliseconds
 _System_Diagnostics_Stopwatch_get_ElapsedMilliseconds:
-.loc 1 79 0
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,60,208,77,226,48,0,141,229,0,0,160,227,8,0,141,229,0,0,160,227
 	.byte 12,0,141,229,0,0,159,229,0,0,0,234
 	.long _mono_aot_System_got - . + 4
 	.byte 0,0,159,231,0,0,208,229,0,0,80,227,23,0,0,10,48,0,157,229
-.loc 1 80 0
 bl _System_Diagnostics_Stopwatch_get_ElapsedTicks
 
 	.byte 20,16,141,229,16,0,141,229,0,0,159,229,0,0,0,234
@@ -202,13 +170,12 @@ bl _p_1
 bl _p_1
 
 	.byte 36,16,141,229,32,0,141,229,36,16,157,229,12,0,0,234,8,16,141,226,48,0,157,229
-.loc 1 83 0
 bl _p_3
 
 	.byte 8,0,141,226
 bl _p_4
 
-	.byte 18,11,65,236,2,43,13,237,8,0,29,229,4,16,29,229
+	.byte 16,11,65,236,2,11,13,237,8,0,29,229,4,16,29,229
 bl _p_5
 
 	.byte 44,16,141,229,40,0,141,229,44,16,157,229,60,208,141,226,0,1,189,232,128,128,189,232
@@ -218,7 +185,6 @@ Lme_2:
 	.align 2
 	.no_dead_strip _System_Diagnostics_Stopwatch_get_ElapsedTicks
 _System_Diagnostics_Stopwatch_get_ElapsedTicks:
-.loc 1 90 0
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,16,208,77,226,0,160,160,225,24,0,218,229,0,0,80,227,15,0,0,10
 bl _p_6
@@ -232,10 +198,8 @@ Lme_3:
 	.align 2
 	.no_dead_strip _wrapper_managed_to_native_System_Diagnostics_Stopwatch_GetTimestamp
 _wrapper_managed_to_native_System_Diagnostics_Stopwatch_GetTimestamp:
-.file 2 "<unknown>"
-.loc 2 1 0
 
-	.byte 128,64,45,233,13,112,160,225,13,192,160,225,240,95,45,233,56,208,77,226,0,0,159,229,0,0,0,234
+	.byte 128,64,45,233,13,112,160,225,13,192,160,225,240,95,45,233,184,208,77,226,0,0,159,229,0,0,0,234
 	.long _mono_aot_System_got - .
 	.byte 0,0,159,231
 bl _pthread_getspecific
@@ -247,7 +211,7 @@ bl _mono_100ns_ticks
 	.byte 12,16,141,229,8,0,141,229,0,0,159,229,0,0,0,234
 	.long _mono_aot_System_got - . + 12
 	.byte 0,0,159,231,0,0,144,229,8,16,157,229,0,16,141,229,12,16,157,229,4,16,141,229,0,0,80,227,8,0,0,26
-	.byte 0,0,157,229,4,16,157,229,16,192,157,229,20,224,157,229,0,192,142,229,72,208,141,226,0,31,189,232,4,208,141,226
+	.byte 0,0,157,229,4,16,157,229,16,192,157,229,20,224,157,229,0,192,142,229,200,208,141,226,0,31,189,232,4,208,141,226
 	.byte 128,128,189,232
 bl _p_7
 
@@ -258,49 +222,36 @@ Lme_4:
 	.align 2
 	.no_dead_strip _System_Diagnostics_Stopwatch_Stop
 _System_Diagnostics_Stopwatch_Stop:
-.loc 1 113 0
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,16,208,77,226,0,160,160,225,24,0,218,229,0,0,80,227,22,0,0,10
 	.byte 12,0,154,229,12,0,141,229,8,0,154,229,8,0,141,229
-.loc 1 115 0
 bl _p_6
 
 	.byte 0,32,160,225,1,48,160,225,8,0,157,229,12,16,157,229,4,48,141,229,0,32,141,229,20,192,154,229,16,48,154,229
 	.byte 0,32,157,229,3,48,82,224,4,32,157,229,12,32,210,224,3,0,144,224,2,16,177,224,12,16,138,229,8,0,138,229
-	.byte 0,0,160,227
-.loc 1 116 0
-
-	.byte 24,0,202,229,16,208,141,226,0,5,189,232,128,128,189,232
+	.byte 0,0,160,227,24,0,202,229,16,208,141,226,0,5,189,232,128,128,189,232
 
 Lme_5:
 .text
 	.align 2
 	.no_dead_strip _System_Diagnostics_Stopwatch_Restart
 _System_Diagnostics_Stopwatch_Restart:
-.loc 1 122 0
 
 	.byte 128,64,45,233,13,112,160,225,0,5,45,233,8,208,77,226,0,160,160,225
 bl _p_6
 
 	.byte 4,16,141,229,0,0,141,229,4,0,157,229,20,0,138,229,0,0,157,229,16,0,138,229,0,0,160,227,12,0,138,229
-	.byte 0,0,160,227,8,0,138,229,1,0,160,227
-.loc 1 124 0
-
-	.byte 24,0,202,229,8,208,141,226,0,5,189,232,128,128,189,232
+	.byte 0,0,160,227,8,0,138,229,1,0,160,227,24,0,202,229,8,208,141,226,0,5,189,232,128,128,189,232
 
 Lme_6:
 .text
 	.align 2
 	.no_dead_strip _System_Diagnostics_Stopwatch__cctor
 _System_Diagnostics_Stopwatch__cctor:
-.loc 1 44 0
 
 	.byte 128,64,45,233,13,112,160,225,0,1,45,233,4,208,77,226,0,0,159,229,0,0,0,234
 	.long _mono_aot_System_got - . + 8
-	.byte 0,0,159,231,0,16,160,227,4,16,128,229,128,22,9,227,152,16,64,227,0,16,128,229
-.loc 1 46 0
-
-	.byte 0,0,159,229,0,0,0,234
+	.byte 0,0,159,231,0,16,160,227,4,16,128,229,128,22,9,227,152,16,64,227,0,16,128,229,0,0,159,229,0,0,0,234
 	.long _mono_aot_System_got - . + 4
 	.byte 0,0,159,231,1,16,160,227,0,16,192,229,4,208,141,226,0,1,189,232,128,128,189,232
 
@@ -334,6 +285,8 @@ code_offsets:
 	.align 3
 unbox_trampolines:
 unbox_trampolines_end:
+
+	.long 0
 .section __TEXT, __const
 	.align 3
 method_info_offsets:
@@ -381,10 +334,10 @@ ex_info_offsets:
 unwind_info:
 
 	.byte 18,12,13,0,72,14,8,135,2,68,14,12,136,3,142,1,68,14,24,18,12,13,0,72,14,8,135,2,68,14,12,136
-	.byte 3,142,1,68,14,72,20,12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,32,32,12,13,0,72
-	.byte 14,8,135,2,72,14,48,132,12,133,11,134,10,136,8,137,7,138,6,139,5,140,4,142,3,68,14,104,20,12,13,0
-	.byte 72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24,18,12,13,0,72,14,8,135,2,68,14,12,136,3,142
-	.byte 1,68,14,16
+	.byte 3,142,1,68,14,72,20,12,13,0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,32,33,12,13,0,72
+	.byte 14,8,135,2,72,14,48,132,12,133,11,134,10,136,8,137,7,138,6,139,5,140,4,142,3,68,14,232,1,20,12,13
+	.byte 0,72,14,8,135,2,68,14,16,136,4,138,3,142,1,68,14,24,18,12,13,0,72,14,8,135,2,68,14,12,136,3
+	.byte 142,1,68,14,16
 .section __TEXT, __const
 	.align 3
 class_info_offsets:
@@ -446,14 +399,14 @@ image_table:
 
 	.long 2
 	.asciz "System"
-	.asciz "BBA11B3C-A2D8-4B4B-8515-EB366683491A"
+	.asciz "45EFC0D9-F89B-4E86-BBCA-D23AB67F019D"
 	.asciz ""
 	.asciz "7cec85d7bea7798e"
 	.align 3
 
 	.long 1,2,0,5,0
 	.asciz "mscorlib"
-	.asciz "5C44A156-FD9D-4BF1-9123-1097987FD38B"
+	.asciz "BF8E86E6-90A5-4AEA-B5B9-B1409C7B789D"
 	.asciz ""
 	.asciz "7cec85d7bea7798e"
 	.align 3
@@ -467,7 +420,7 @@ got_end:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "BBA11B3C-A2D8-4B4B-8515-EB366683491A"
+	.asciz "45EFC0D9-F89B-4E86-BBCA-D23AB67F019D"
 .section __TEXT, __const
 	.align 2
 runtime_version:
@@ -480,7 +433,7 @@ assembly_name:
 	.align 3
 _mono_aot_file_info:
 
-	.long 95,0
+	.long 97,0
 	.align 2
 	.long _mono_aot_System_got
 	.align 2
@@ -542,9 +495,10 @@ _mono_aot_file_info:
 	.align 2
 	.long unbox_trampolines_end
 
-	.long 7,60,8,9,10,118565375,0,201
+	.long 7,60,8,9,10,387000831,0,201
 	.long 0,0,0,0,0,0,0,0
 	.long 0,0,0,0,128,4,4,14
+	.long 0,0,0,0,0
 	.globl _mono_aot_module_System_info
 	.align 2
 _mono_aot_module_System_info:
@@ -556,11 +510,11 @@ blob:
 
 	.byte 0,1,2,0,1,2,2,4,5,1,2,2,4,5,1,2,0,1,2,2,3,6,1,2,0,1,2,0,1,2,2,5
 	.byte 4,255,252,0,0,0,6,0,5,12,0,39,42,47,16,1,2,2,16,1,2,1,33,7,11,95,95,101,109,117,108,95
-	.byte 108,100,105,118,0,3,193,0,8,202,3,2,3,193,0,8,193,7,22,95,95,101,109,117,108,95,102,99,111,110,118,95
+	.byte 108,100,105,118,0,3,193,0,8,212,3,2,3,193,0,8,203,7,22,95,95,101,109,117,108,95,102,99,111,110,118,95
 	.byte 116,111,95,111,118,102,95,105,56,0,3,5,7,35,109,111,110,111,95,116,104,114,101,97,100,95,105,110,116,101,114,114
 	.byte 117,112,116,105,111,110,95,99,104,101,99,107,112,111,105,110,116,0,2,0,0,2,19,0,2,19,0,2,38,0,2,59
-	.byte 0,2,38,0,2,92,0,2,113,0,0,128,144,8,0,0,1,4,128,132,8,28,9,0,4,193,0,8,22,193,0,8
-	.byte 19,193,0,8,18,193,0,8,16,98,111,101,104,109,0
+	.byte 0,2,38,0,2,93,0,2,114,0,0,128,144,8,0,0,1,4,128,132,8,28,9,0,4,193,0,8,31,193,0,8
+	.byte 28,193,0,8,27,193,0,8,25,98,111,101,104,109,0
 .section __TEXT, __const
 	.align 3
 Lglobals_hash:
@@ -857,7 +811,8 @@ Lfde4_start:
 
 LDIFF_SYM41=Lme_4 - _wrapper_managed_to_native_System_Diagnostics_Stopwatch_GetTimestamp
 	.long LDIFF_SYM41
-	.byte 12,13,0,72,14,8,135,2,72,14,48,132,12,133,11,134,10,136,8,137,7,138,6,139,5,140,4,142,3,68,14,104
+	.byte 12,13,0,72,14,8,135,2,72,14,48,132,12,133,11,134,10,136,8,137,7,138,6,139,5,140,4,142,3,68,14,232
+	.byte 1
 	.align 2
 Lfde4_end:
 
@@ -950,6 +905,68 @@ Lfde7_end:
 
 	.byte 0
 Ldebug_info_end:
+.section __DWARF, __debug_line,regular,debug
+Ldebug_line_section_start:
+Ldebug_line_start:
+
+	.long Ldebug_line_end - . -4
+	.short 2
+	.long Ldebug_line_header_end - . -4
+	.byte 1,1,251,14,13,0,1,1,1,1,0,0,0,1,0,0,1
+.section __DWARF, __debug_line,regular,debug
+	.asciz "/Developer/MonoTouch/Source/mono/mcs/class/System/System.Diagnostics"
+
+	.byte 0
+	.asciz "<unknown>"
+
+	.byte 0,0,0
+	.asciz "Stopwatch.cs"
+
+	.byte 1,0,0,0
+Ldebug_line_header_end:
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _System_Diagnostics_Stopwatch__ctor
+
+	.byte 3,54,4,2,1,3,54,2,20,1,2,12,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _System_Diagnostics_Stopwatch_get_Elapsed
+
+	.byte 3,192,0,4,2,1,3,192,0,2,24,1,8,231,3,3,2,132,1,1,2,60,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _System_Diagnostics_Stopwatch_get_ElapsedMilliseconds
+
+	.byte 3,206,0,4,2,1,3,206,0,2,36,1,8,229,3,3,2,228,0,1,2,56,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _System_Diagnostics_Stopwatch_get_ElapsedTicks
+
+	.byte 3,217,0,4,2,1,3,217,0,2,20,1,2,240,0,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _System_Diagnostics_Stopwatch_Stop
+
+	.byte 3,240,0,4,2,1,3,240,0,2,20,1,8,174,3,1,2,200,0,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _System_Diagnostics_Stopwatch_Restart
+
+	.byte 3,249,0,4,2,1,3,249,0,2,20,1,3,2,2,48,1,2,16,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,5,2
+	.long _System_Diagnostics_Stopwatch__cctor
+
+	.byte 3,43,4,2,1,3,43,2,16,1,3,2,2,36,1,2,36,1,0,1,1,0,1,1
+Ldebug_line_end:
 .text
 	.align 3
 mem_end:
